@@ -1,8 +1,18 @@
+# How to install
+
 Installing video - typescriptlang.org to install
+You must have node.js installed.
 
-npm install -D typescript
+You can add typescript globally but he advises to just run it locally or per project.
 
+# First run
 
-I had to comment out both the with-typescript.js and the index.html because it kept saying I already had the function and I had already declared the variable.
+First run npm init - y to create an exmply pacakge.json file.Then run nmp install - typescript.
 
-Typescript does not run in the browser so we have to compile it to JS. 
+Typescript does not run in the browser so we have to compile it to JS. If you try to execute it in the browser, it will fail.
+
+To run the compiler via tsc use: npx tsc. Or use a slightly modified version where you point to a file that should be compiled. Use npx tsc with-typescript.ts(this is the name of my file).
+
+During the compilation step we will be notified of code problems and errors. It's then the compiled code that will run in the browser.
+
+You protect yourself against more errors with using typescript.
