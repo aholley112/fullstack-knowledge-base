@@ -1,0 +1,7 @@
+Base Types and Primatives Vido
+
+Primitives: number, string, boolean
+More complex types: arrays, objects
+Function Types, parameters.
+
+asigining a string will give an error. A username can be a string.

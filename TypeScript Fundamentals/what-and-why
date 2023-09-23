@@ -1,0 +1,8 @@
+# What is typescript?
+
+typeScript is a superset to JavaScript. It's a programming language that builds up on JavaScript. JS is still the core programming language. TypeScrpt adds more features to the JS syntax. 
+
+# Important reason for typescript
+
+It adds static typing to JS. JS on its own is dynamically typed. 
+
