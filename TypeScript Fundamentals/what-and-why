@@ -2,7 +2,9 @@
 
 typeScript is a superset to JavaScript. It's a programming language that builds up on JavaScript. JS is still the core programming language. TypeScrpt adds more features to the JS syntax. 
 
-# Important reason for typescript
+# Important reasons for typescript
 
 It adds static typing to JS. JS on its own is dynamically typed. 
+The function in JS doesn't expect any particular types. It knows it will receive parameters.
 
+If there's a lot of people working on code it makes more sense to use typescript because people may call the same function.
