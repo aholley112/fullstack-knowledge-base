@@ -1,0 +1,9 @@
+# Union Types
+
+Up to this point we assumed every variable took just one type. But sometimes you want to allow different types.
+
+Some variables allow two different types of objects. A union type is a definition that allows more than one type. You add it by adding a colon after the variable name to the left of the = sign and then your type.
+
+# How to code it
+
+Add a pipe symbol after the first type such as string and then after the other type such as number.
