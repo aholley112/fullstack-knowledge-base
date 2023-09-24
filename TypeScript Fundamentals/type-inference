@@ -1,0 +1,7 @@
+# Inference.
+
+I have usually declared a variable with a type assign and then set it a value.
+
+By default Typescript tries to store as many types as possible. It tries to know what types are used and where without you specifically saying what type.
+
+Do not unneccasrily state the type. It can become redundent.
