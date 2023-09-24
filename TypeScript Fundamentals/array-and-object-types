@@ -1,0 +1,9 @@
+# Using arrays.
+
+To tell Typescript that I want an array we can use string[];. We can use this for hobbies, etc. If you don't use a string in this example you will get an error.
+
+# Object Types
+
+If I want to store an object like a person with name and age I can use typescript. I want to make it clear what kind of object can be stored.
+
+You can add the square brackets to store multiple.
