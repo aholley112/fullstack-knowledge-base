@@ -1,0 +1,9 @@
+# Angular
+
+a framework that allows you to create reactive Single Page Applications (SPAs)
+
+You can navigate around the application but the page never changes. Every change is rendered in the browser.
+
+# How
+
+JS changes the DOM, changes whatever is displayed here (in the broswer) by changing the HTML code during runtime.
