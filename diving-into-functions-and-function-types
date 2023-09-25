@@ -1,0 +1,5 @@
+#Functions and types
+
+Try not to name anything where it will clash with Javascripts built in names. 
+
+Here we learn about void. It's comparible to undefined but is only used in functions. It means it never returns.
