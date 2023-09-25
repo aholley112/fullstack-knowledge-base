@@ -1,0 +1,7 @@
+# Compiler
+
+Just executing npx tsc provided errors. I had to point to a specific file
+npx tsc with-typescript.tsc
+
+# Remember
+Angular projects get typsecript configuration files out of the box and you should only change them if you know what you are doing.
