@@ -1,0 +1,5 @@
+# Interfaces
+
+This feature only exists in typescript. Any code which you write will not be compiled to JS.
+
+In the most basic form, interfaces are just object type definitions.
