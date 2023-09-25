@@ -1,0 +1,7 @@
+# Classes
+
+You can define blueprints for objects with the class keyword. Class is supported in typescript and JS.
+
+You can add constructor methods to this class.
+
+You can use public and private keywords to set how things can be accessed.
