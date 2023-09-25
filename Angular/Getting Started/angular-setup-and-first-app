@@ -1,0 +1,24 @@
+# Set up
+
+angular cli to install. It will give you all the steps to run. You whill have to have node installed.
+
+Use the normal terminal and first run sudo npm install -g @angular/cli@latest. @latest is optional. 
+
+You can ignore errors as long as it successfully stored the API. 
+
+# Error I got when installing
+
+changed 255 packages in 1s
+
+42 packages are looking for funding
+  run `npm fund` for details
+amandafeely@Amandas-MacBook-Pro ~ % 
+
+CD command you can navigate between a folder that already exists. Go into any folder and once you're there:
+
+ng new (any name of your choice). Example: ng new my-first-app --no-strict.
+
+No do not add angular routing yet
+
+
+which stylesheet? standard css. The video mentions a lesson prior to this one where he addresses common issues. What is he talking about?
