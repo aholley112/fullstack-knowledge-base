@@ -1,0 +1,13 @@
+# Editing
+
+You need an IDE or editor. Webstorm is great but it's not free. Visual Studio Code is great. 
+
+# Question
+
+What's the benefit of a paid IDE?
+
+# In VSC
+
+ Upload the project into VSC.
+
+ Go to src file and then you have your app folder. app.component.html looks very similar to the browser. Make sure you keep it running because it will watch your files. 
