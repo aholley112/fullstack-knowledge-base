@@ -1,0 +1,7 @@
+# Generics
+
+This can be tricky. Let's say we have a function. It takes an array and value as parameters. The array should be any kind of values and the value should be any kind of value.
+
+I want to create a new array in this function by using the spread operator and copying the existing array. Then in front of the old array I want to insert the value. The return the new array. The advanatage is that the original array never changes but be are getting a new array.
+
+add angle brackets to convert a function. In here you can define a generic type which will only be available inside of this function.
