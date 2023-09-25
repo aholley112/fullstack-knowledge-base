@@ -7,9 +7,15 @@ You can add typescript globally but he advises to just run it locally or per pro
 
 # First run
 
-First run npm init - y to create an exmply pacakge.json file.Then run nmp install - typescript.
+First run npm init - y to create an empty pacakge.json file.
+
+# Second run
+
+Then run nmp install - typescript.
 
 Typescript does not run in the browser so we have to compile it to JS. If you try to execute it in the browser, it will fail.
+
+# Third run
 
 To run the compiler via tsc use: npx tsc. Or use a slightly modified version where you point to a file that should be compiled. Use npx tsc with-typescript.ts(this is the name of my file).
 

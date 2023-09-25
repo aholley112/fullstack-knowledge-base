@@ -1,0 +1,8 @@
+# Type aliases
+
+The more typescript code you write, the higher chance that you might be repeating definition. Type alias prevents this. Define your own base type and then use the type alias instead of repeating the entire definition.
+
+# How to
+
+use the 'type' keyword and then use any name of your choice which will be the new type name. Example: type Person = 
+
