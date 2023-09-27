@@ -1,0 +1,5 @@
+# Two-way databinding
+
+This is how we combine property and event binding. We use [] and (). 
+
+We have to use a special directive: ngModel
