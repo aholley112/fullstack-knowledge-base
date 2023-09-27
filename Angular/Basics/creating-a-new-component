@@ -1,0 +1,13 @@
+#Component
+
+Choose a unique selector you won't override a default one.
+
+Have the folder name equal your component name and each component should have it's own folder.
+
+Always put in the app folder. 
+
+Use ng generate component.... in the terminal.
+
+The component interface has to be imported.
+
+Try using name.component.fileextension.
