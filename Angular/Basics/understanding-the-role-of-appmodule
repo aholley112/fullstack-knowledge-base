@@ -1,0 +1,13 @@
+# What is app Module
+
+Angular uses components to build web pages and uses modules to basically bundle different pieces.
+
+It bundles components into packages.
+
+Imports allows us to add anothe rmodules to this module. You can split it up and import it into another one.
+
+Module is just a TS class with an NGModule decorator. 
+
+Components must be registered because Angular won't scan all files by itself. It has to be registered so Angular knows it exists.
+
+Always import to the top and add to declarations.
