@@ -1,0 +1,7 @@
+# Bootstrp
+
+npm install --save bootstrap@3 in terminal. This will install locally. It will download it and store it in the noes module folder.
+
+You must make angular aware. In the angular.json file you will change the styles section. Change to "node_modules/bootstrap/dist/css/bootstrap.min.css", right above the "src/styles.css"
+
+Rerun ng serve.
