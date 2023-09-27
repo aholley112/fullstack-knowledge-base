@@ -1,0 +1,9 @@
+# ngClass
+
+The ngClass directive enables you to data bind an expression that represents all of the additional classes to be added to add CSS classes to an HTML element dynamically.
+
+The value can be a string, object, or an array.
+
+If it is a string, it should contain one or more, space-seperated class names.
+
+We use property binding on this directive.
