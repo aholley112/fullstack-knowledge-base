@@ -1,0 +1,7 @@
+# Nesting
+
+Alternative to creating it manually
+
+Use terminal to add ng generate component and then pass name to create a component in the app folder.
+
+They can be used multiple times.
