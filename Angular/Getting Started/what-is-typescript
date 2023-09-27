@@ -1,0 +1,7 @@
+# Typescript
+
+Just a superset to javascript. More features than vanilla JS (Eg. types, classes, interfaces)
+
+TS doesn't run in the browser so it's compiled to JS.
+
+TS checks the work while you're typing it versus while you're running it. 
