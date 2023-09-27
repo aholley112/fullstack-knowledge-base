@@ -1,0 +1,7 @@
+# Property binding vs. String interpolation
+
+In most cases you can use either one. If you want to display text you can use string interpolation.
+
+Property binding can be used when you want to change something in the property.
+
+Do not use both of them together. 
