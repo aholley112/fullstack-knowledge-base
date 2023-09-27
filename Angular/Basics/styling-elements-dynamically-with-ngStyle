@@ -1,0 +1,7 @@
+# styling elements dynamically with ngStyle
+
+Styles applied with the style attribute also take precedence over any styles bound to an element using class.
+
+ It's useful to use inline styles to dynamically override default styles. 
+ 
+ Using ngStyle allows us to apply inline styles to any element, or component, easily
