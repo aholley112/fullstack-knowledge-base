@@ -1,0 +1,7 @@
+# Combining all forms
+
+you can combine all four forms of data binding.
+string interpolation to output the data.
+event binding to listen to the click. 
+property binding to enable the button.
+and two way binding to fetch the input data.
