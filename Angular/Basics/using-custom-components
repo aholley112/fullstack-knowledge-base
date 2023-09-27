@@ -1,0 +1,5 @@
+#Custom components
+
+go to app component html file and we will add app-server element.
+
+It should recompile and the server component is added.
