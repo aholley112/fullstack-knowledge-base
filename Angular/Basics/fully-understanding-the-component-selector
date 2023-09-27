@@ -1,0 +1,9 @@
+# Component Selector
+
+This has to be a unique selector so you don't overwrite something that already exists.
+
+You don't have to use this type of selector. app-server.
+
+You can use attributes, classes, etc.
+
+In some situations you might want to use a different selector instead of an element.
