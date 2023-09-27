@@ -1,0 +1,3 @@
+# components
+
+Each component has it's own template, styling, and business logic. You can split up your webpage into reusable parts.
