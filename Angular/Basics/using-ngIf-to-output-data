@@ -1,0 +1,7 @@
+# Using ngIf to output data
+
+We want to conditionally show messages sometimes.
+
+This works like an if statement. 
+
+If the expression inside it is false then the element is removed and if it is true then the element is added to the DOM.
