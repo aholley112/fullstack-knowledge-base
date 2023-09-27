@@ -1,0 +1,9 @@
+# data binding
+
+This allows you to ouput dynamic data. 
+
+databinding is basically communication between your typescript code and the template.
+
+We need communication between both pieces.
+
+output data - string interpolation or property binding.
