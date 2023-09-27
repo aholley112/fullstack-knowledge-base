@@ -1,0 +1,7 @@
+# Event Binding
+
+Event binding lets you listen for and respond to user actions such as keystrokes, mouse movements, clicks, and touches.
+
+() is used for event binding. Simiilar to how [] is used for property binding.
+
+You can also code to execute in quotation marks.
