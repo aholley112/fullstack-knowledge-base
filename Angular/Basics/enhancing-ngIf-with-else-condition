@@ -1,0 +1,8 @@
+# Enhancing with else condition
+
+This adds an else clause. 
+
+If the condition you specified is not fulfilled, do this instead.
+
+Now the app shows the predefined content for the else side of things when you make your comparisons.
+
