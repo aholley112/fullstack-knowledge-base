@@ -4,3 +4,4 @@ localhost: 4200.
 
 the index.html is served. 
 
+use ng serve
