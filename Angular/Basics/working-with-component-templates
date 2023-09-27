@@ -1,0 +1,7 @@
+#Component templates
+
+This allows you to use an inline template. Up to now we've always used external template.
+
+Each component HAS to have a template.
+
+You can omit the selector.
