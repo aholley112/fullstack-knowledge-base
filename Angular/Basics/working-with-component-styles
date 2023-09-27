@@ -1,0 +1,7 @@
+#Component styles
+
+You can use inline CSS.
+
+the app.component.css page defines the style for this component.
+
+We can choose between external and inline for styling as well.
