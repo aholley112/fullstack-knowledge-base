@@ -1,0 +1,5 @@
+# How to pass and use data with event binding.
+
+You can use click, input, etc. This allows you to call methods to display data.
+
+You can bind to all events made available to the html attribute you're placing it on.
