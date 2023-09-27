@@ -1,0 +1,9 @@
+# Property binding
+
+A lot of times you can use either property binding or string interpolation.
+
+You can use property binding to toggle button features, set paths programmatically, and share values between components.
+
+You can bind data to properties
+[] around a property can bind it
+[property]="data" ([disabled]="!boolean")
