@@ -1,0 +1,7 @@
+# Getting the index when using ngFor
+
+The way to access the index with NgFor is through what's called a local variable. 
+
+Each iteration inside the NgFor “loop” exposes to us a set of local variables - index , count , first , last , even , odd . 
+
+You can see all other variables exposed to us in the NgForOf documentation.
