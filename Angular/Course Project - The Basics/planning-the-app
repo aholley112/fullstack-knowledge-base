@@ -1,0 +1,19 @@
+# Planning the app
+
+The first step is to layout the structure and plan which components you might need.
+
+We need a root component to hold everything. Then we need a header. we will need to outsource the header.
+
+# Shopping list
+
+We need a shopping list component and shopping list edit component. 
+
+# Recipe Book
+
+We need a recipe list, recipe item, and recipe detail.
+
+Each compoment should hold business logic. And each component focuses on one main topic.
+
+# Models
+
+Which data will we use in this app. We need some representation for our ingredients. 
