@@ -1,0 +1,5 @@
+# Outputting lists with ngFor
+
+Whenever you have an iterable list with elements you need to render, you will use ngFor. 
+
+The ngFor directive is extremely powerful when it comes to rendering a list of elements in Angular, because of all configuration options and built-in efficiency to reuse DOM nodes.
