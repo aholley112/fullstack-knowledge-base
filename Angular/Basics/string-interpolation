@@ -5,4 +5,4 @@ You can also manually put strings inside {{ }}
 
 You can't write block expressions in the curly braces.
 
-It is a wone way data binding technique that is used to transfer the data from the TypeScript code to an HTML template(view).
+It is a one way data binding technique that is used to transfer the data from the TypeScript code to an HTML template(view).
