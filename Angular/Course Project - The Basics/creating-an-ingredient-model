@@ -1,0 +1,13 @@
+# Creating an ingredient model
+
+Having a model makes sense because we are using ingredients a lot.
+
+We will store ingredient model in a new shared folder in the app folder. Shared will contain features or elements which are shared across different features.
+
+Add an accessor in front of the property name. Example: 
+
+export class Ingredient {
+
+  constructor(public name: string, public amount: number) {
+  }
+}
