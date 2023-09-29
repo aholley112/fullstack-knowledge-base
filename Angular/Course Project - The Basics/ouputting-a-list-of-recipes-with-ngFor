@@ -1,0 +1,9 @@
+# Outputting a list of recipes with ngFor
+
+This is the directive which allows us to repeat code with our template. 
+
+We want to loop through all the recipes. Create a local variable named Recipe or whatever you want. This will store the recipe of each iteration in our loop. Then we will loop through all.
+
+You can use property binding and string interpolation for this. However, in the video he decided to go with property binding. 
+
+Example: [src]="recipe.imagePath"
