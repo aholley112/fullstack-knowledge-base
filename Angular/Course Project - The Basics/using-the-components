@@ -1,0 +1,7 @@
+# Using the Components
+
+Add the component to your app.component.html. Then you need to work on them individually
+
+In the recipes.component.html you will add data. 
+
+You will do the same for each list or component you're wanting to add to.
