@@ -1,0 +1,22 @@
+#Creating a recipe model.
+
+A model should just be a blueprint for the objects that we create.
+
+A typescript class does this job.
+
+We can create new objects from the setup we define in this class. export class Recipe.
+
+# Example of blueprint
+
+export class Recipe {
+  public name: string;
+  public description: string;
+  public imagePath: string;
+
+  constructor(name: string, desc: string, imagePath: string) {
+    this.name = name;
+    this.description = desc;
+    this.imagePath = imagePath;
+  }
+}
+

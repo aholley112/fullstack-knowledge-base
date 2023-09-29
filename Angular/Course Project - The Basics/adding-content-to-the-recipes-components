@@ -1,0 +1,5 @@
+# Adding content to the recipes components.
+
+You want to be able to replicate the components. 
+
+Using square brackets - the only thing that will ever get stored in this recipes property is an array which holds a couple of recipe objects.
