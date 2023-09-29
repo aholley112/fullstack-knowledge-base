@@ -1,0 +1,11 @@
+# Creating the components
+
+Create a header folder in the app folder. Within that folder create a header.component.ts file and html file.
+
+A component is simply just a typescript class.
+
+You have to register all of the features and selectors you're going to use in the app module.
+
+# --Spec False
+
+add --spec false at the end of ng g c (file name) to prevent the creation of a testing file which we don't need.
