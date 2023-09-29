@@ -1,0 +1,5 @@
+# Working on the ShoppingListComponent
+
+We already added some content in the HTML file but now we want to output an unordered list.
+
+We will use Bootstrap to make clickable list items using an anchor tag.
