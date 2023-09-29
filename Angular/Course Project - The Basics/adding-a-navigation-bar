@@ -1,0 +1,5 @@
+# Adding a navigation bar.
+
+A navigation bar is it's own component.
+
+We can add it by going to the header folder and creating the nav class.
