@@ -1,0 +1,5 @@
+# Displaying recipe details
+
+In the HTML file we will add another Bootstrap row and a column spanning over the full width.
+
+The detail will be added into the recipes component. 
