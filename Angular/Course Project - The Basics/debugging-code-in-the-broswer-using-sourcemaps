@@ -1,0 +1,13 @@
+# Debugging code in the broswer using source maps
+
+Sometimes you don't even get an error message or sometimes the error is not enough to tell you what to do.
+
+# Example
+In this example I can add the server many times but can't delete the last one.
+
+# Source maps
+
+In Chrome you can go to sources and you will find all the sources imported on the page. Try to find your code within there. If you try to place a break point there you will see something changed. 
+
+
+
