@@ -1,0 +1,5 @@
+# Wrapping up next steps
+
+We will want to improve it later by not having recipes and shopping list component on the same page.
+
+We will also want to have the components communicating with eachother.
