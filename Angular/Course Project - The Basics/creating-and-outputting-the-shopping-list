@@ -1,0 +1,5 @@
+# Creating and outputting the shopping list
+
+You will want to use the new ingredient model.
+
+Define the type for your array. You will have to import Ingredient at the top of thopping list component.ts
