@@ -1,0 +1,9 @@
+# Understanding angular error messages.
+
+You might get errors a lot. 
+
+Example: "Inline template: 4:6 caused by: cannot read property 'push' of undedefined.
+
+The thing we are calling push on is undefined. In this case it's this.servers.push
+
+We need to make sure that before we try to push an item on servers, we set it to an array.
