@@ -1,0 +1,7 @@
+# Using local references in templates
+
+You can place a local reference on an element. It can be placed on any HTML element. You add it with # and then the name of your choice.
+
+This reference will hold a reference to the element with all of its properties.
+
+You can only create them in the template. You cannot do it inside of your typescript code.
