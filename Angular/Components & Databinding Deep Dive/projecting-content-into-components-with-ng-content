@@ -1,0 +1,9 @@
+# Projecting content into components with ng content
+
+We can pass data around another way.
+
+Let's say you want to add it in the app component between the opening and closing tag of your own component.
+
+Everything you place between the opening and closing tag of your own component is lost from the DOM.
+
+You can change this with a special directive and you can add ng-content.
