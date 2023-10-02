@@ -1,0 +1,50 @@
+# Binding to custom events
+
+To bind to an event you use the Angular event binding syntax. This syntax consists of a target event name within parentheses to the left of an equal sign, and a quoted template statement to the right.
+
+Create the following example; the target event name is click and the template statement is onSave().
+
+<button (click)="onSave()">Save</button>
+The event binding listens for the button's click events and calls the component's onSave() method whenever a click occurs.
+
+# Determining an event target
+
+To determine an event target, Angular checks if the name of the target event matches an event property of a known directive. 
+
+<h4>myClick is an event on the custom ClickDirective:</h4>
+<button type="button" (myClick)="clickMessage=$event" clickable>click with myClick</button>
+{{clickMessage}}
+If the target event name, myClick fails to match an output property of ClickDirective, Angular will instead bind to the myClick event on the underlying DOM element.
+
+# Binding to passive events
+
+This is an advanced technique. You may find this useful if you want to optimize frequently occurring events that are causing performance problems.
+
+Angular also supports passive event listeners. For example, use the following steps to make a scroll event passive.
+
+Create a file zone-flags.ts under src directory.
+Add the following line into this file.
+content_copy
+(window as any)['__zone_symbol__PASSIVE_EVENTS'] = ['scroll'];
+In the src/polyfills.ts file, before importing zone.js, import the newly created zone-flags.
+content_copy
+import './zone-flags';
+import 'zone.js';  // Included with Angular CLI.
+After those steps, if you add event listeners for the scroll event, the listeners will be passive.
+
+# Binding to keyboard events
+
+You can bind to keyboard events using Angular's binding syntax. You can specify the key or code that you would like to bind to keyboard events. They key and code fields are a native part of the browser keyboard event object. By default, event binding assumes you want to use the key field on the keyboard event. You can also use the code field.
+
+Combinations of keys can be separated by a . (period). For example, keydown.enter will allow you to bind events to the enter key. You can also use modifier keys, such as shift, alt, control, and the command keys from Mac. The following example shows how to bind a keyboard event to keydown.shift.t.
+
+content_copy
+<input (keydown.shift.t)="onKeydown($event)" />
+Depending on the operating system, some key combinations might create special characters instead of the key combination that you expect. MacOS, for example, creates special characters when you use the option and shift keys together. If you bind to keydown.shift.alt.t, on macOS, that combination produces a ˇ character instead of a t, which doesn't match the binding and won't trigger your event handler. To bind to keydown.shift.alt.t on macOS, use the code keyboard event field to get the correct behavior, such as keydown.code.shiftleft.altleft.keyt shown in this example.
+
+content_copy
+<input (keydown.code.shiftleft.altleft.keyt)="onKeydown($event)" />
+The code field is more specific than the key field. The key field always reports shift, whereas the code field will specify leftshift or rightshift. When using the code field, you might need to add separate bindings to catch all the behaviors you want. Using the code field avoids the need to handle OS specific behaviors such as the shift + option behavior on macOS.
+
+For more information, visit the full reference for key and code to help build out your event strings.
+
