@@ -1,0 +1,7 @@
+# More on view encapsulation
+
+You can override encapsulation you can add something to the @component decorator. It's called encapsulation and there you can access ViewEncapsulation. You have to add that import.
+
+Then you can choose between 3 modes.
+
+You can switch between emulated, non, or native.
