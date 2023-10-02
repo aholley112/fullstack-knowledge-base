@@ -1,0 +1,7 @@
+# Splitting apps into components
+
+splitting up content is useful because it cleans up the code and allows you to reuse parts. 
+
+You can create a component for the individual server. 
+
+You want to split it up into multiple components but you also need to pass data between the components.
