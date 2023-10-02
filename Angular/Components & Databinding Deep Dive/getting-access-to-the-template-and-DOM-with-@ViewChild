@@ -1,0 +1,20 @@
+# Getting access to the template and DOM with @ViewChild
+
+Do not change your element through this. Use ElementRef to rewrite the text.
+
+Next, add an appName attribute to a span containing text in the component template. 
+
+In Angular 8+, the @ViewChild() syntax which you'll see in this lecture needs to be changed slightly:
+
+Instead of:
+
+@ViewChild('serverContentInput') serverContentInput: ElementRef;
+use
+
+@ViewChild('serverContentInput', {static: true}) serverContentInput: ElementRef;
+The same change (add { static: true } as a second argument) needs to be applied to ALL usages of @ViewChild() (and also @ContentChild() which you'll learn about later) IF you plan on accessing the selected element inside of ngOnInit().
+
+If you DON'T access the selected element in ngOnInit (but anywhere else in your component), set static: false instead!
+
+For projects using Angular 9 or higher (check the package.json file to find out), you can omit static: false, you only need to specify static: true if you plan on using the selected element inside of ngOnInit().
+
