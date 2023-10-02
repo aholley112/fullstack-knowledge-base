@@ -1,0 +1,5 @@
+# Assigning an alias to custom properties
+
+Sometimes you don't want to use the same property to bind it. 
+
+You can pass an argument to the input with the property name as you want it outside of the component. 
