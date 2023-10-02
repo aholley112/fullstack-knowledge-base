@@ -1,0 +1,9 @@
+# Understanding view encapsulation
+
+CSS styles have the goal of encapsulating the component they belong to.
+
+It gives the same atrribute to all elements in a component.
+
+It kind of emulates the shadow DOM, the shadow DOM is a technology not supported by all browsers where each element has it's own shadow dom behind it where you then can assign styles to each element.
+
+Angular emulates it with view encapsulation.
