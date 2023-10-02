@@ -1,0 +1,9 @@
+# Property and event binding overview.
+
+You want to split it up into multiple components but you also need to pass data between the components.
+
+We need to be able to send data into a component or receive data or an event. 
+
+# Can be used
+
+Can be used on directives with custom properties and events, HTML elements with native properties and events, and Components, custom properties and events.
