@@ -1,0 +1,7 @@
+# Custom property and event binding summary
+
+This component communication is such a key feature. @Input and the ability to make your properties bindable outside from the parent component using this component, these are so important.
+
+We will use it in the recipe book in the next section because it allows you to make it very dynamic, use many components, and have them talk to eachother.
+
+Chains of input and output can definitly grow too complex. The distance between two components is so great that building a chain of inputs and outputs it's not very practical. 
