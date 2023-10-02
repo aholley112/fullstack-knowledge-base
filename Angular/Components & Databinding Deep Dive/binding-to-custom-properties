@@ -1,0 +1,13 @@
+# Binding to Custom Properties
+
+Element property is a property in that component so we need to bind to it.
+
+We can add [] and enter the name of the property in between and then we can assign the server element, the element we store for each iteration in this variable.
+
+# Do not
+
+You do not want to make all of your properties exposed to the world.
+
+If you want parent components to bind to a property you need to add a decorator. 
+
+@Input and then you need to execute it so add () at the end. Then @Input needs to be imported from @angular/core.
