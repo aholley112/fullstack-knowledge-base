@@ -1,0 +1,10 @@
+# Adding ingredients
+
+how to allow the user to add ingredients to the shopping list.
+
+Don't forget to import FormsModule from 'angular/forms'!
+
+Use constant instead of let because we're not going to change these variables.
+
+# Example
+
