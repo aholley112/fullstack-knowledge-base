@@ -1,0 +1,5 @@
+# Lifecycle hooks and template access
+
+@ViewChild property added to our HTML. 
+
+AfterViewInit gives you access to the template elements.
