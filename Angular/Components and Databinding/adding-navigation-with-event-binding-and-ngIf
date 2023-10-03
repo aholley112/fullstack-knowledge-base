@@ -1,0 +1,8 @@
+# Adding navigation with event binding and ngIf
+
+We will use ngIf to only load two sections at a time.
+
+# Example
+
+<app-recipes *ngIf="loadedFeature === 'recipe'"></app-recipes>
+      <app-shopping-list *ngIf="loadedFeature !== 'recipe'"></app-shopping-list>
