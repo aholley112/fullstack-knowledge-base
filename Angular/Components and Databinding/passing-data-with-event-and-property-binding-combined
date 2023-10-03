@@ -1,0 +1,7 @@
+# Passing data with event and property binding combined.
+
+You need to emit an event on the single recipe item component, that it was clicked and then get this event somehow to the recipes component which then also holds the recipe detail to pass down the event data, which recipe was selected, to that component.
+
+# Important
+
+Make sure you are always importing what you need. In this case we used EventEmitter so we need to import from @angular core at the top.
