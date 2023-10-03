@@ -1,0 +1,43 @@
+# Understanding the component lifecycle
+
+ ngOnInit() is a life cycle hook.
+
+ # ngOnChanges
+
+ Called after a bound input property changes.
+
+ # ngOnInit 
+
+ Called once the component is initialized. This will run after the constructor.
+
+ # ngDoCheck
+
+ Called during every change detection run. 
+
+ # ngAfterContentInit
+
+ Called after content (ng-content) has been projected into view.
+
+ # ngAfterContentChecked
+
+ Called every time the projected view (and child views) has been initialized.
+
+ # ngAfterViewInit
+
+ Called after the component's view (and child views) has been initialized.
+
+ # ngAfterViewChecked
+
+ Called every time the view (and child views) have been checked.
+
+ # ngOnDestroy
+
+ Called once the component is about to be destroyed.
+ 
+ # lifecycle
+ 
+ if a new component is created in Angular and of course, Angular is responsible for creating these components when it finds one of our selectors. It will instantiate a new version of that component and add it to the DOM.
+
+ Once it is instantiated it goes through phases and it will give us a chance to hook into these phases.
+
+  
