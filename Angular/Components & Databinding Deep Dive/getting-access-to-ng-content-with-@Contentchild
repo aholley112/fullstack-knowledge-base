@@ -1,0 +1,14 @@
+# Getting access to ng content with @Contentchild
+
+As mentioned a few lectures ago, in Angular 8+, the @ViewChild() and @ContentChild() syntaxes need to be changed slightly:
+
+Instead of:
+
+@ContentChild('contentParagraph') paragraph: ElementRef;
+use
+
+@ContentChild('contentParagraph', {static: true}) paragraph: ElementRef;
+If you DON'T access the selected element in ngOnInit (but anywhere else in your component), set static: false instead!
+For projects using Angular 9 or higher (check the package.json file to find out), you can omit static: false, you only need to specify static: true if you plan on using the selected element inside of ngOnInit().
+
+If we want to place a local reference in our paragraph but want to use it in our server component, we can use @viewChild. It's not part of the view, it's part of the content. 
