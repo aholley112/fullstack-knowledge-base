@@ -1,0 +1,5 @@
+# Module introduction
+
+What are services?
+
+A service is basically just another class in your app which acts as a central repository.
