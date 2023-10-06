@@ -1,0 +1,16 @@
+# Creating a basic attribute directive
+
+We want to pick a unique selector. But we want to it to be clear.
+
+Wrap it in brackets for style so you don't have to wrap it in brackets in other places of the code.
+
+We can inject the element the directive sits on into this directive.
+
+We will learn about injection more later.
+
+# Important
+
+We're getting access to the element the directive was placed on, getting access to that exact element and then overwriting the style.
+
+To use it we have to inform Angular that we have a new directive. Go to app module. In declerations, add your directive and then add the import pointing to the folder and file you need.
+
