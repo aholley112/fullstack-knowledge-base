@@ -1,0 +1,3 @@
+# Building and using a drop down directive.
+
+We are already using directives but we want to enhance the project by adding our own directive which allows us to open the drop down.
