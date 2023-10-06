@@ -1,0 +1,9 @@
+# ngClass and ngStyle Recap
+
+# ngClass
+
+The ng-class directive dynamically binds one or more CSS classes to an HTML element. The value of the ng-class directive can be a string, an object, or an array. If it is a string, it should contain one or more, space-separated class names.
+
+# ngStyle
+
+The ng-style directive specifies the style attribute for the HTML element. The value of the ng-style attribute must be an object, or an expression returning an object. The object consists of CSS properties and values, in key value pairs.
