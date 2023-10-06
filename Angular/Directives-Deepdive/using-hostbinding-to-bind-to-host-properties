@@ -1,0 +1,7 @@
+# Using HostBinding to Bind to Host Properties.
+
+This is even easier than renderer. 
+
+@HostBinding is a decorator that needs to be imported from @angular.core
+
+This allows us to easier change the color.
