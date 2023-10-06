@@ -1,0 +1,7 @@
+# Using HostListener to listen to host events.
+
+We need to react to some events occuring on the element the directive sits on.
+
+Adding a new decorator @HostListener is how we can do it.
+
+the Hostlistener is a decorator that declares a DOM event to listen for and provides a handler method to run when that event occurs. Angular invokes the supplied handler method when the host element emits the specified event and updates the bound element with the result.
