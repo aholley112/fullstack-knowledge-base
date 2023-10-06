@@ -1,0 +1,11 @@
+# Binding to directive properties.
+
+We can use custom property binding. Add two properties to bind.
+
+Example here: defaultColor and highlightColor.
+
+To bind to an element's property, enclose it in square brackets, [], which identifies the property as a target property.
+
+A target property is the DOM property to which you want to assign a value.
+
+To assign a value to a target property for the image element's src property, type the following code:
