@@ -1,0 +1,7 @@
+# What happens behind the scenes on structural directives
+
+The star tells angular that this is a structural directive. It's a nicer way for us to use them,
+
+Behind the scenes angular will transform them into something else. There is no star operator.
+
+Angular transfors the ng usage into something where we end up with property binding.
