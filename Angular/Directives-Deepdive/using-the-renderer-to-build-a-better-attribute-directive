@@ -1,1 +1,9 @@
 # Using the renderer to build a better attribute directive.
+
+Angular is able to render your templates without a DOM. It's not a good practice to directly access your directives.
+
+You want to use the renderer. 
+
+constructor(private renderer: Renderer2) {}
+
+It must be imported as well from @angular/core.
