@@ -1,0 +1,10 @@
+# Injecting services into services
+
+
+You can inject a service into another service.
+
+It isn't possible by providing it on a component level. It's only possible through the app module.
+
+First, import the Logger service. Next, inject the Logger service in the HeroService constructor() by specifying private logger: Logger . Here, the constructor() specifies a type of Logger and stores the instance of Logger in a private field called logger .
+
+
