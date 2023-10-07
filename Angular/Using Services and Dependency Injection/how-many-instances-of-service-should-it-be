@@ -1,2 +1,7 @@
 # How many instances of service should it be
 
+New accounts and account component have their own instances. 
+
+Sometimes you want to have the same instance and sometimes you want many. 
+
+Make sure that you get the correct one. 
