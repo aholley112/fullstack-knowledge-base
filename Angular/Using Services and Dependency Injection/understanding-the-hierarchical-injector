@@ -1,0 +1,17 @@
+# Understanding the hierarchical injector
+
+If we provide a service in some place of our app, let's say on one component, the Angular framkework knows how to create an instance of that service for this comonent and important, all its child components.
+
+# Highest level - App Module
+
+The app module is the highest level we can provide a service. Same instance of Service is available Application-wide
+
+# Next level - App Component
+
+Same instance of service is available for all components (but not for other services)
+
+# Lowest Level - Any other component
+
+Same instance of service is available for the component and all its child components.
+
+With hierarchical dependency injection, you can isolate sections of the application and give them their own private dependencies not shared with the rest of the application, or have parent components share certain dependencies with its child components only but not with the rest of the component tree, and so on.
