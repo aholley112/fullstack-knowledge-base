@@ -1,0 +1,9 @@
+# Using services for cross component communication
+
+Normally without services we would have to emit an event in the code component, that something was clicked, we would then have to catch the event in app account, and then we would have to pass the new data down via property binding to the component where we wanted to handle it. 
+
+In any Angular app, components are the basic building blocks. Angular Components provide us with the views/templates for the app. They also manage the data bound to those views. Below are some of the most common data sharing scenarios in any app, where two or more components share information between them:
+
+Parent Component to Child Component: Using @Input decorator (property binding)
+Child Component to Parent Component: Using @Output decorator and EventEmitter (event binding)
+Between Sibling or Unrelated Components: Using the Angular Shared Service
