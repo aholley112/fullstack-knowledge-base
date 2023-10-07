@@ -1,0 +1,12 @@
+# Injecting the Logging Service into Components
+
+Dependcy injector gives us access.
+
+A dependency is something a class of ours will depend on. 
+
+For example: the new account component depends on the loggingService because we want to call a method in that servivce and the dependcy injector injects this dependency, or an instance of this class into the component automatically.
+
+We just need to inform Angular that we require such instance.
+
+We add a constructor where we want to use the service. 
+
