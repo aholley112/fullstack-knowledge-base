@@ -1,0 +1,5 @@
+ # Creating a logging service
+
+ A directive becomes a directive because we attach @directive.
+
+ Angular provides a much better way of getting access to your services and therefore, you should not create the instances manually.
