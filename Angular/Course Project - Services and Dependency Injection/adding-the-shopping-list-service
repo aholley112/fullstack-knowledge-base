@@ -1,0 +1,6 @@
+# Adding the shopping list service.
+
+First we need to copy the ingredients here and add it here as a property to the service.
+
+Then add it as a property to the service in the shopping-list.service.ts file.
+
