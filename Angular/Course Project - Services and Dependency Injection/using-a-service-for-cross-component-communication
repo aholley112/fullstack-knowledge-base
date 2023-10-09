@@ -1,0 +1,5 @@
+# Using a service for cross component communication
+
+Using services for cross component means we don't have to build a complex chain for event and property binding.
+
+We are able to reduce the amount of code needed by using services.
