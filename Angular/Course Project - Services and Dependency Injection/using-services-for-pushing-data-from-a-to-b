@@ -1,0 +1,7 @@
+# Using services for pushing data from A to B
+
+We could remove slice and it would fix our error when we are trying to add ingredients.
+
+we have to inform our component that new data is available.
+
+Add a new event emitter.
