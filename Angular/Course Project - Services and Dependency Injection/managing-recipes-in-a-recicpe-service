@@ -1,0 +1,5 @@
+#Managing recipes in a recipe service
+
+We should take our recipes and manage it in the recipe service. 
+
+It's easier to manage in the service file and we can remove it from the other file.

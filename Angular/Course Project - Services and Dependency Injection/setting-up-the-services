@@ -1,0 +1,7 @@
+# Setting up the services
+
+A service is just a typescript class. 
+
+You don't need to add any special decorator to it, at least not if you don't plan on injecting a service.
+
+In our recipe example we created a file recipe.service.ts in the recipes folder because that's where we will use it.
