@@ -1,0 +1,5 @@
+# Passing ingredients from recipes to the shopping list
+
+We can send data around through our app using services.
+
+In this example we passed ingredients from the recipe to the actual shopping list so we could see the new ingredients we needed on our shopping list.
