@@ -1,0 +1,21 @@
+# Setting up and loading routes
+
+To use the Angular router, an application needs to have at least two components so that it can navigate from one to the other. To create a component using the CLI, enter the following at the command line where first is the name of your component.
+
+# Defining a basic  route
+
+There are three fundamental building blocks to creating a route.
+
+Import the AppRoutingModule into AppModule and add it to the imports array.
+
+Import RouterModule and Routes into your routing module.
+
+The Angular CLI performs this step automatically. The CLI also sets up a Routes array for your routes and configures the imports and exports arrays for @NgModule().
+
+Define your routes in your Routes array.
+
+Each route in this array is a JavaScript object that contains two properties. The first property, path, defines the URL path for the route. The second property, component, defines the component Angular should use for the corresponding path.
+
+Add your routes to your application.
+
+Now that you have defined your routes, add them to your application. First, add links to the two components. Assign the anchor tag that you want to add the route to the routerLink attribute. Set the value of the attribute to the component to show when a user clicks on each link. Next, update your component template to include <router-outlet>. This element informs Angular to update the application view with the component for the selected route.
