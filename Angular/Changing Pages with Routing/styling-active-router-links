@@ -1,0 +1,11 @@
+# Styling active router links
+
+We can dynamically set a class to help us. 
+
+Angular gives us a special directive for this.
+
+routerlink active directive.
+
+routerLinkActive="active"><a routerLink="/">Home</a>
+
+With [] we can pass anything that can be resolved dynamically.
