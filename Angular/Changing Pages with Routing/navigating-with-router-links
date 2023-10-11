@@ -1,0 +1,13 @@
+# Navigating with router links
+
+With every link we click a new request is sent to the server and it returns a new page.
+
+There is a special decorative that angular gives us. 
+
+n Angular, RouterLink is a directive for navigating to a different route declaratively. Router.navigate and Router.navigateByURL are two methods available to the Router class to navigate imperatively in your component classes.
+
+However, a single page application (SPA) does not have different pages to link to. Instead, it has different views to display to the user. To allow a user to navigate and change the view, you will want to use the RouterLink directive instead of href:
+
+# Relative Paths
+
+You can use '../ to go up to higher levels in the navigation using something like this:
