@@ -1,0 +1,11 @@
+# Why do we need a router
+
+We want to communicate between components.
+
+Listen to a click when we create a new page and on that page we submit some data to the new component.
+
+Angular ships with its own router which allows you to change the URL in the URL bar and still only use one page but exchange one parts or a lot of parts of that page. 
+
+This allows the user to see multiple pages but behind the screen it's just JS changing parts in your single page application.
+
+
