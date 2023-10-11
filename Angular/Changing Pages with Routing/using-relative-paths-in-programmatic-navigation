@@ -1,0 +1,17 @@
+# Using relative paths in programmatic navigation
+
+Before when we used the routerLink we got an error because it would try to add servers to the end of this path.
+
+If we use the navigate method we don't get the error anymore.
+
+# Reason
+
+Unlinke the routerLink, the navigate method doesn't know on which route you are currently on. It always knows which component it sits in, in which template, so it always knows what the route is.
+
+# How
+
+To tell this where we currently are in, we have to pass a second argument to the navigate method which is a JS object and here we can configure this navigate action.
+
+# relativeTo
+
+Here we define relative tow hich route this link should be loaded and by default.
