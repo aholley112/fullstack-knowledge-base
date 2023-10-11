@@ -1,0 +1,11 @@
+# Navigating Programmatically
+
+We've learned how to add routes and how to load them. We've also learned how to style them.
+
+But now we want to load a route programmatically.
+
+We need access to our angular router so we can tell it to go somewhere else.
+
+Injectable - bind it to private property.
+
+this.router.navigate(['/servers']);
