@@ -1,0 +1,6 @@
+# An important note about route observables
+
+The fact that you don't have to add anything else to the component is because angular does something for you in the background.
+
+It cleans up the subscription you set up when the component was destroyed.
+
