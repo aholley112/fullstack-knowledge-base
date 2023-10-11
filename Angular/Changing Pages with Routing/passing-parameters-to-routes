@@ -1,0 +1,10 @@
+# Passing paramaters to routes
+
+Pass params to a route by putting them in an object as a second parameter to the navigation.navigate function: navigation.navigate('RouteName', { /* params go here */ })
+Read the params in your screen component: route.params .
+
+# Example
+
+'users/:id'
+
+A colon tells Angular this is dynamic or an angular part of the path.
