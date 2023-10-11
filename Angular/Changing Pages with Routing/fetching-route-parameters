@@ -1,0 +1,10 @@
+# Fetching Route paramaters
+
+We know we will load the user component and we know that there will be some data in the URL.
+
+# How do we get access
+
+In the typescript file. We need to inject the active route.
+
+Example: ActivatedRoute. Make sure you import { ActivatedRoute } from '@angular/router'
+

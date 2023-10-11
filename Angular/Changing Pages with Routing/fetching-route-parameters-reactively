@@ -1,0 +1,22 @@
+# Fetching route paramaters reactively
+
+There are ways to break this. There are places this approach will not work.
+
+# Example
+
+Angular looks and finds the fitting route, loads the component, intializes the component and gives us the data by accessing the snapshot.
+
+This only happens if we haven't been on this component before. Angular doesn't reinstantiate a component. Why would it rerender a component we are already on.
+
+ngOnInit() {
+    this.user = {
+        id: this.route.snapshot.params['id'],
+        name: this.route.snapshot.params['name']
+    };
+    this.route.params
+        .subscribe(
+            (params:Params) => {
+                this.user.id = params ['id'],
+                this.user.name = params ['name'];
+            }
+      
