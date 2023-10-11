@@ -1,0 +1,15 @@
+# Passing query paramaters and fragments.
+
+These are paramaters seperated by a question mark.
+
+Like mode = editing.
+'#' to jump somewhere.
+
+
+How can you pass them using angular router links and then how can you retrieve them.
+
+Bring in the activated route as we are trying to take a snapshot of what the query parameters look like and also what the fragment in the URL looks like. Query params return an object, while fragments return a string.
+
+Remember you have to bring in the activated route to use the snapshot option:
+
+Now we created a details object and have variables for parts of the query params and the fragment, and we tied the variables to the snapshots of the data we already got.

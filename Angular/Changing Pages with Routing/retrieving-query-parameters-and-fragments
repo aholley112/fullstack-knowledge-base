@@ -1,0 +1,7 @@
+# Retrieving Query Parameters and Fragments
+
+In the edit component here is how we can get access to our query paramater and the fragment. We need our activated route.
+
+Inject the Activated Route from @angular.router
+
+Just like before we can access the snapshot of our route and access query params or our fragment.

@@ -4,3 +4,4 @@ The fact that you don't have to add anything else to the component is because an
 
 It cleans up the subscription you set up when the component was destroyed.
 
+impolement ngOnDestroy and lifestyle hook.
