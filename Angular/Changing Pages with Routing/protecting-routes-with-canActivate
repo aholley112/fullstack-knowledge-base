@@ -1,0 +1,22 @@
+# Protecting routes with canActive
+
+We want to protect some of our routes and we can use a feature offered by angular that allows us to run code at a point of time defined by us.
+
+Add a new file in our root folder named auth-guard.service.ts
+
+Then we will export class named AuthGuard or AuthGuardService followed by 'implements CanActivate {}'
+
+# Example
+
+import {
+    CanActivate,
+    ActivatedRouteSnapshot,
+    RouterStateSnapshot
+} from '@angular/router';
+import { Observable } from angular/core;
+import { Injectable } from angular/core;
+
+export class AuthGuard implements CanActivate {
+    canActivate(route: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot): Observable<boolean> | Promise<boolean> | boolean ){
+    }
