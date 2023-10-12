@@ -1,0 +1,7 @@
+# Practicing and some common gotchas.
+
+To get access to the router parameter, we need to inject the ActivatedRoute. 
+
+In ngOnInit you can get the ID from the snapchat and the ID that's encoded in the URL.
+
+In some errors you have to convert your ID to a number and we can do that by adding a plus in front of it. Make sure the ID you're retrieving is a number.
