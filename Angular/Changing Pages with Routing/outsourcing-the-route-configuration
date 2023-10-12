@@ -1,0 +1,16 @@
+# Outsourcing the route configuration
+
+Typically if you have more than 2 or 3 routes you don't add it directly in the app module.
+
+You add a new file which is for hte application as a whole, called AppRoutingModule.
+
+The app-routing.module.ts file usually goes after app.module.ts.
+
+import { ngModule } from '@angular/core';
+
+const....
+
+@NgModule({ })
+
+
+export class AppRoutingModule {}
