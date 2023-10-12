@@ -1,0 +1,11 @@
+# An introduction to guards
+
+Route guards.
+
+So basically functionality, locic code which is executed before a route is loaded or once you want to leave a route.
+
+A simple use case. let's say you only want to give access to your server component or the added server component if the user is logged in.
+
+We want to check this before any of our subroutes here are accessed. Manually checking this in the onInint function would be very cumbersome.
+
+We want to use a feature built into the angular router.
