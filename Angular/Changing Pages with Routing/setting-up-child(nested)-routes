@@ -1,0 +1,10 @@
+# Setting up child(nested) routes
+
+
+# Example
+
+In servers Component route we will add another property, children. 
+
+Children takes another array of routes, so now we can simply take our two other servers routes here and add them inside of the array as children.
+
+adding a router outlet adds a new hook that will be used on all child routes.
