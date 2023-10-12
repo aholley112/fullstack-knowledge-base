@@ -1,2 +1,7 @@
 # Redirecting the wildcard routes
 
+For this, we create a new component Page-Not-Found, and redirect the user to this component whenever there is an unknown route request. In the working of routes, the order of the routes matters a lot.
+Since the wildcard route match every other route, it needs to be mentioned in the last. This is so as to make sure that if none other route is matched, then only PageNotFound Component should be redirected to.
+Generate a new component using,
+
+And now, specify it inside the const routes,
