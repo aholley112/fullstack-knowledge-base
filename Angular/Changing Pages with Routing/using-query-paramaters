@@ -1,1 +1,17 @@
 # Using query paramaters
+
+We can improve by using query paramaters
+
+In our service component we should add a button where we say edit server.
+
+If you are using Router.navigate to navigate across the routes, use queryParams to send the query parameters.
+
+# Dont forget
+
+Dont forget the relative to property.
+
+Notice how we pass in the object to the queryParams using the one-way binding. We can also pass a whole object as the queryParams .
+
+Further, if we want to carry these query parameters forward on subsequent navigation, we can use the queryParamsHandling option. The possible options of queryParamsHandling are merge  and preserve:
+
+

@@ -1,0 +1,7 @@
+# Configuring the handling of query paramaters.
+
+To preserve the information we have a simple way of doing it.
+
+In the server component we need to pass or add another property to the JS object to configure our navigation.
+
+queryParamsHandling takes a string as a value. It  can be merge or preserve. Preserve will overwrite the default behavior and make sure the old ones are kept.
