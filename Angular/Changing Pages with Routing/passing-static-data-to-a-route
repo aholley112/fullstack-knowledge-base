@@ -1,0 +1,19 @@
+# Passing static data to a route
+
+ Some routes depend on data they receive, either statically each time they are loaded or they will resolve dynamically.
+
+ # Static data
+
+ We want to create a new error page component which will be generic.
+
+ errorMessage we want to output by string interpolation. We must add errorMessage to our component
+
+ export class ErrorPageComponent implements Oninit {
+ errorMessage: string;
+
+ constructor (private route: ActivatedRoute) { }
+ 
+ ngOnInit() {
+    this.errorMessage = this.route.snapshot.data ['message']
+ }
+ }
