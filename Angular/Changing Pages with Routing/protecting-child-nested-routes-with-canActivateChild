@@ -1,0 +1,3 @@
+# Protecting child (nested) routes with canActivatedChild
+
+You have to import it from angular router. This interface requires you to provide a CanActiveChild method in this class which basically takes the same form as the canActivate method, so it has the route and state and it returns an obvservable, promise or boolean.
