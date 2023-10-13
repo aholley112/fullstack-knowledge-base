@@ -1,0 +1,19 @@
+# Resolving dynamic data with the resolve guard
+
+We want to load the individual server from some back-end so we are going to simulate that this takes a couple of miliseconds.
+
+If we have such a use case we need a resolver.
+
+It will allow us to run some code before the route is rendered.
+
+The resolver will not decide whether the route will be rendered or not. It will ALWAYS render the component but it will fetch data the component will need later on.
+
+ngOnInit() {
+    this.route.data
+    .subscribe(
+        (data: Data) => {
+            this.erver = data['server'];
+        }
+}
+
+The server name has to match the name you use when you assign it in the app routing.module ts.
