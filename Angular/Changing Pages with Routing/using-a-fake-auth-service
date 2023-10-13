@@ -1,0 +1,7 @@
+# Using a fake auth service
+
+We finish the CanActivate behavior by allowing the user to login. We will go to our home component and adding two new buttons, one login button and one logout button and then we will add some CSS classes.
+
+# Needed for personal project
+
+possibly need to use this in my TaskIt Project
