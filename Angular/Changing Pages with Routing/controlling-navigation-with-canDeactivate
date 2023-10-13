@@ -1,0 +1,11 @@
+# Controlling navigation with canDeactivate
+
+We want to ask the user if they really want to leave or we want to prevent them accidentally navigating away.
+
+changesSaved is a false by default property. We want to change whenever we click on update server. 
+
+Inject the router and import it.
+
+Interface that a class can implement to be a guard deciding if a route can be deactivated. If all guards return true, navigation continues. If any guard returns false, navigation is cancelled. If any guard returns a UrlTree, current navigation is cancelled and a new navigation begins to the UrlTree returned from the guard.
+
+Deprecated: Class-based Route guards are deprecated in favor of functional guards. An injectable class can be used as a functional guard using the inject function: canDeactivate: [() => inject(myGuard).canDeactivate()].
