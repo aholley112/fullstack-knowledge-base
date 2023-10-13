@@ -1,0 +1,8 @@
+# Understanding location strategies
+
+If you have a route like the one in the video, your domain/servers and you're hosing this on a real server somewhere in the web, this might not work out of the box because there, routes, the URL is always, this is how the web works, it's always parsed handled by the server first. The server that hosts your application.
+
+We're also using a development server locally.
+
+
+The Location Strategy defines how a URL/Request should be resolved. It also determines how your URL should look like. The angular framework has a “Router Module” which helps in designing, develop and implementing routes and navigation links.
