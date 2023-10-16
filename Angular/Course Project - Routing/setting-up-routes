@@ -1,3 +1,9 @@
 # Setting up routes
 
 Root routes have the routes for our overall application.
+
+The way we've configured it, we will alwawys redirect the router because the default matching strategy of the router is for the path, it will see if it's a prefix of the current path.
+
+The empty path is therefore, part of any route we visit. It will check if the empty path is part of the total path.
+
+An empty path is part of every route. Have to add the pathMatch. 
