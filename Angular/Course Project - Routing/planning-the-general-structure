@@ -1,0 +1,5 @@
+# Planning the general structure
+
+ngIf is not really the best way to navigate. Instead we want to use routing.
+
+We will also be adding the recipe edit component.
