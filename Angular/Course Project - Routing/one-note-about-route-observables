@@ -1,0 +1,5 @@
+# One note about route observables
+
+We are subscribing to params here in the detail component and in the edit component.
+
+You don't need to clean up the subscription here. In other cases where you use you rown observables that arn't managed by Angular you will definitely need to clean up your own subscriptions. 
