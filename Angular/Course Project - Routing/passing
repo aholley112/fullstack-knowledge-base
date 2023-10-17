@@ -1,0 +1,5 @@
+# Passing dynamic parameters to links
+
+The place to make these links work in our course project is in our recipe list.
+
+The recipe item is where we have an anchor tag and where we should set the link.
