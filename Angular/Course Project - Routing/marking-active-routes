@@ -1,0 +1,5 @@
+# Marking active routes
+
+The routerLinkActive directive is what we want to use.
+
+In the html we define the class we want to conditionally attach to this element whenever the link on this element or nested inside of it, like it's the case here, gets active. 
