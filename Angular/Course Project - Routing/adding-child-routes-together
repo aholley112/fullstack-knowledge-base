@@ -1,0 +1,7 @@
+# Adding child routes together
+
+We will add the children by going to the app-routing.module.ts page. 
+
+We add the children property. Children also takes an array of routes and each route still is just a JS object, here the first route we want is the empty path route.
+
+All child routes come after the path of the parent route.
