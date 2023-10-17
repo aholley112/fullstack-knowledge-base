@@ -1,0 +1,5 @@
+# Styling active recipe items
+
+We need to mark the active link. We can manually add the active class to it.
+
+We want to dynamically add it though so we can do it with routerLinkActive directive.
