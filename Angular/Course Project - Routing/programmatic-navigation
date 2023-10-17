@@ -1,0 +1,8 @@
+# Programmatic navigation for edit
+
+# Programmatic navigation to the edit page.
+
+ onEditRecipe() {
+    // this.router.navigate(['edit'], {relativeTo: this.route}); But you will actually use this route!!!!
+    this.router.navigate(['../', this.id, 'edit'], {relativeTo: this.route});
+  }
