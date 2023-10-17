@@ -1,0 +1,7 @@
+# Module introduction
+
+Basically can be though of as a daata sourse. Various data sources: (user input)  events, http requests, triggered in code...
+
+We have an observable and an abserver and between that we have a stream or a timeline. 
+
+Observer - you have 3 ways of handling data. handle data, handle error, handle completion. You write the code which gets executed.
