@@ -1,0 +1,3 @@
+# Fixing page reload issues
+
+In the recipe-item html we need to remove the ref because that will actually send a request to the browser and therefore reload our page. 
