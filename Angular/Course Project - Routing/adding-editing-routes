@@ -1,0 +1,5 @@
+# Adding editing routes
+
+With child routing almost finished we want to be able to create new recipes and edit existing ones.
+
+We need a new component for this.
