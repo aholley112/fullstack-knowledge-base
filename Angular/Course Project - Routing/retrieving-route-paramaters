@@ -1,0 +1,7 @@
+# Retrieving route paramaters
+
+We will inject the activated route and in ngOnInit it's a good place to retrieve the ID.
+
+We want to do it dynamically so we use the route and params observable and subscribe to that.
+
+Params will only be undefined if we are in edit mode because then an ID will be present.
