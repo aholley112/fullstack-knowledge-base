@@ -1,0 +1,5 @@
+# Adding navigation to the app.
+
+With our main routes set up we can go to the header component to change the way we navigate. 
+
+We don't need ref elements or click listeners anymore. 
