@@ -1,0 +1,7 @@
+# Observables and you
+
+Now we have an observable and how it behaves. 
+
+Use the built in interval funciton over the example. 
+
+Whenever you subscribe and set up your different handler functions, RxJS in the end merges them all together into one object and passes the object, the observer to the observable and inside of the observable, it will then interact with the observer and let the observer know about new data and errors and so on.
