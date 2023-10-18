@@ -11,3 +11,5 @@ if (count > 3) {
 }
 
 When an observable completes, it really is done, there are no other values emitted thereafter, which kind of makes sense because it completed.
+
+You can also add completion handler function.
