@@ -1,0 +1,13 @@
+# Errors and custom observables.
+
+In most cases you will past the first argument where you're interested in the data you're getting.
+
+We can fake an error by throwing it and defining our own condition.
+
+# Example
+
+if (count > 3) {
+    observer.error( new Error (message: 'Count is greater 3!))
+}
+
+When an observable completes, it really is done, there are no other values emitted thereafter, which kind of makes sense because it completed.
