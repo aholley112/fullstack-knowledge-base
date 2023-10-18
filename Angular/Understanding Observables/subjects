@@ -1,0 +1,5 @@
+# Subjects 
+
+Let's say in our user component here, we have a button which I'll add and I'll give it a class. The idea is that when we click this button, we change something in the app component. Print Activate it. Add a horizontal line and in between print Activated.
+
+An RxJS Subject is a special type of Observable that allows values to be multicast to many Observers. While plain Observables are unicast (each subscribed Observer owns an independent execution of the Observable), Subjects are multicast.
