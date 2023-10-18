@@ -1,0 +1,13 @@
+# Getting closer to the core of observables.
+
+RxJS we need in the package.jason. We must import this.
+
+import {} from RxJS.
+
+We also need to use the interval function.
+
+import { interval } from 'rxjs';
+
+# Important
+
+we don't want to keep old subscriptions around.
