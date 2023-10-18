@@ -1,0 +1,16 @@
+# Understanding operators
+
+There's one thing you absolutely have to know about observables and the RxJS library. Operators.
+
+Operators are the magic feature of hte RxJS library and they are the thing that really turn observable into awesome constructs.
+
+Sometimes you don't need the raw data, you might want to transform it or filter out certain parts.
+
+You can do this inside of your subscription or in the funtion you pass to your subscription.
+
+But there is a better way. You can use built in operators in between.
+
+The data points first reachc these operators that do something to the data and there are tons of built in operators.
+
+
+
