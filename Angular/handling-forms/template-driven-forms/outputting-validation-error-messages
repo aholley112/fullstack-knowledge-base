@@ -1,0 +1,7 @@
+# Outputting validation error messages
+
+Now we can use a bootstrap class here, help-block, to make sure that this has the appropriate styling. Then we could say please enter a valid email.
+
+Of course we only want to show this if the input is actually invalid.
+
+by adding a local reference to the input element and then associating it with ngModel.
