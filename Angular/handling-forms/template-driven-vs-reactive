@@ -1,0 +1,5 @@
+# Template driven vs reactive
+
+Template driven: Angular infers the Form Object from the DOM
+
+Reactive: More complicated. Form is created programmatically and syncronized with the DOM. But you do have more control with reactive because it is more complex.
