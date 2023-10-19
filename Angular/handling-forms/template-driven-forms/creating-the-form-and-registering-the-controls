@@ -1,0 +1,9 @@
+# Creating the Form and Registering the Controls
+
+We must have the HTTPModule import.
+
+It will automatically create a form for you when it detects a form element in the code.
+
+It serves as a selector for an angular directive which then creates a representation for you.
+
+Pick the input that you want to have as a control. We want to structure it a bit different to split it up over multiple lines to make it easier. Add ngModel
