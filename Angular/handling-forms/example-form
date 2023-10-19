@@ -1,0 +1,3 @@
+# Example form
+
+In the example we don't want an HTTP request to be the result. Right now if we hit submit nothing is going to happen.
