@@ -1,0 +1,9 @@
+# Adding validation to check User Input
+
+validation is always so important.
+
+Adding "required" will make it to where they can't leave an empty field. Required is only treated as a selector for an angular directive.
+
+Angular tracks the form and the state of the validity.
+
+ It dynamically adds some classess giving us information about the individual controls.
