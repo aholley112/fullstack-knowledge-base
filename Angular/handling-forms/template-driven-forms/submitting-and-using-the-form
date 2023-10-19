@@ -1,0 +1,10 @@
+# Submitting and using the forms
+
+Now we must make the form submittable.
+
+We will go to the app.component.ts and add a new method. This should be triggered whenever the form is submitted by the user.
+
+The best place to do it is actually not the onclick. 
+
+Angular gives us the ngSubmit directive. It's one event we can listen to so we can wrap it in paranthesis. This will be fired whenever the form is submitted or whenever the default behavior is triggered.
+
