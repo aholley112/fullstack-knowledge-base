@@ -1,0 +1,19 @@
+# Accessing the form with @ViewChild
+
+Right now we submit the form by passing the form which we get via ngForm here to the onSubmit method, which is probably what we will do most often.
+
+You don't have to submit it here though. You can also use @ViewChild.
+
+Alternative: 
+
+export class AppComponent {
+    @ViewChild
+
+    suggestUserName() {
+        const suggestedName = 'Superuser';
+    }
+}
+
+#Important
+
+ViewChild must be imported.
