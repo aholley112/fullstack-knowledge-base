@@ -1,0 +1,8 @@
+# Understanding form state
+
+The JS object has many properties which allows us to really understand the state of our form.
+
+We can see all the controls. Each control has a couple of properties. 
+
+dirty is true because we typed in input. If we refresh, dirty would be false.
+
