@@ -1,0 +1,13 @@
+# Why do we need angulars help?
+
+On the angular side of your app it will check validity. But we need to be able to parse the values and we need some JS object representation in our form.
+
+{
+    value: {
+        name: 'Max',
+        email: 'test@test.com'
+    }
+    valid: true
+}
+
+Angular gives you a JS object representation making it simple for you to see the values.
