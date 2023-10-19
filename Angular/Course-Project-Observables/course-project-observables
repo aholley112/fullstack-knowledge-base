@@ -1,0 +1,9 @@
+# Course Project Observables
+
+The better pattern is to replace our event emmitters with subjects.
+
+# Example
+
+ngOnDestroy(): void {
+    this.igChangeSub.unsubscribe();
+  }
