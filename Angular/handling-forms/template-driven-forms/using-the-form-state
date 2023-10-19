@@ -1,0 +1,9 @@
+# Using the form state
+
+We want to disable the submit button unless the form is actually valid.
+
+We need to use property binding.
+
+We also want to apply CSS to the form. Like we can put a red borderr around the input box if the input is invalid.
+
+input.ng-invalid or touched.
