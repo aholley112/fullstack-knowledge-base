@@ -1,0 +1,13 @@
+# Syncing HTML and form
+
+We need to syncronize the HTML inputs with our form. Right now angular doesn't know which of our typescript controls relates to which input.
+
+Right now it is autodetecting that there is a form and creating a form for us. But we don't want this.
+
+Must add directives to override this behavior. 
+
+Must import reactiveFormsModule.
+
+We must add <form [formGroup]="signupForm">
+
+Use the formControlName directive on your input to tell angular which control it is in your typescript form
