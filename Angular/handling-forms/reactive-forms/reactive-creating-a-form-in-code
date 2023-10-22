@@ -1,0 +1,12 @@
+# Creating a form in code
+
+Use ngOnInit and import it from @angular/core.
+
+In the ngOnInit is where we will initialize the form.
+
+You should initialize it before rendering the template of course, so make sure to use a lifecycle hook which is called before the template is rendered.
+
+this.signupForm = new FormGroup()
+FormGroup() takes in an object or objects with controls.
+
+Controls are just key value pairs that we pass.
