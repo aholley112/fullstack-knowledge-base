@@ -1,0 +1,5 @@
+# Introduction to reactive approach
+
+Reactive approach allows you to create the form in greater detail.
+
+The form is created programmatically and synchronized with the Dom.
