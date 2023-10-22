@@ -1,0 +1,11 @@
+# Creating a custom async validator
+
+Typically you might need to reach out to a web server to check this. That however is asynchronous operation because the response isn't coming back instantly. It takes a few seconds.
+
+This is why we need asyncronous validators. They are able to wait for a response or before returning true or false. 
+
+We can create these in the app component.
+
+Example here will be forbiddenEmails. It takes control as an argument and we need to return something. Promise or Observable.
+
+Promise must be imported.
