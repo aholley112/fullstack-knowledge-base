@@ -1,0 +1,10 @@
+# Reactive adding validation
+
+You're not configuring the form in the HTML template, you're only synchronizing it with the directives, form Control Name and formGroup but you're not configuring it here.
+
+The second argument on FormControl is for validators.
+You must import Validators from angular/forms.
+'username': new FormControl(null, Validators.required).
+
+You can also pass an array of multiple validators.
+'email': new FormControl(null, [Validators.required, Validators.email]),
