@@ -5,3 +5,7 @@ We know how to extract the data and submit the form but now we want to know how 
 This is very simple. On our form which in this case is fetched from our template with ViewChild. We can call reset like this...
 
 this.signupForm.reset();
+
+You could also pass an object to reset to specific values.
+
+this.singupForm.reset({ userData: { username: 'somename' } });
