@@ -1,0 +1,9 @@
+# Grouping form controls
+
+We want to validate the validity, the status of our individual groups of inputs.
+
+You can also get access to the JavaScript representation by again adding a local reference to to the element which holds the ngModelGroup directive.
+
+# Example in video
+
+ngModelGroup will get us access to this javascript object. 
