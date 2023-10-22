@@ -1,0 +1,42 @@
+# Reactive arrays of form controls
+
+You can have an array of controls in your FormGroup. For this example we will use: 'hobbies': new FormArray([]).
+
+You must import FormArray from angular/forms.
+
+You can push controls in the array, but you must cast the array to push.
+
+# Example
+
+(this.signupForm.get('hobbies')).push(FormControl you setup)
+You synchronize it with the form with formArrayName="hobbies"
+
+
+
+# Notes from Video
+
+In this lecture, we'll add some code to access the controls of our form array:
+
+*ngFor="let hobbyControl of signupForm.get('hobbies').controls; let i = index"
+
+This code will fail as of the latest Angular version.
+
+You can fix it easily though. Outsource the "get the controls" logic into a method of your component code (the .ts file):
+
+getControls() {
+  return (<FormArray>this.signupForm.get('hobbies')).controls;
+}
+In the template, you can then use:
+
+*ngFor="let hobbyControl of getControls(); let i = index"
+
+Alternatively, you can set up a getter and use an alternative type casting syntax:
+
+get controls() {
+  return (this.signupForm.get('hobbies') as FormArray).controls;
+}
+and then in the template:
+
+*ngFor="let hobbyControl of controls; let i = index"
+
+This adjustment is required due to the way TS works and Angular parses your templates (it doesn't understand TS there).
