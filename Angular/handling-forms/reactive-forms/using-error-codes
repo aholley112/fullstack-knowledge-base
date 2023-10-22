@@ -1,0 +1,14 @@
+# Using error codes
+
+Angular actually adds the error codes on the individual controls on the errors object. 
+
+You can access the codes with the get method.
+
+# Example
+
+signupForm.get('userData.username').errors['nameIsForbidden']
+Will return true if the control contains the error 'nameIsForbidden'
+
+# Remember
+
+These error codes can be used to show the right error messages and of course you can come up with more complex set ups.
