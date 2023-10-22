@@ -1,0 +1,7 @@
+# Getting access to controls.
+
+Now we can use form status to display messages but it works differently because we access the controls differently. 
+
+You can still use *ngIf for validation but you don't use ngModel.
+
+We directly access the form and call a get method from our control.
