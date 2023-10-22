@@ -1,0 +1,8 @@
+# Submitting the form
+
+We used ngSubmit in the template driven approach.
+
+We will add this method, onSubmit, but the difference from the template driven approach is that we don't need to get the form via this local reference, that actually wouldn't work.
+
+We don't need to get this reference because we created the form on our own. So we can simply console log this.signupForm and this how we get access.
+
