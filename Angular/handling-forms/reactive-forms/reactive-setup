@@ -1,0 +1,9 @@
+# Reactive setup
+
+It's set up programattically in typescript code so we should start working in our typescript file. We need to create a new property that will hold our program in the end.
+
+Important: It needs to be the type 'Form Group' and it needs to be imported from '@angular/forms',
+
+You do not need the FormsModule but you do need to import the ReactiveFormsModule.
+
+FormsModule is required in the template driven approach.
