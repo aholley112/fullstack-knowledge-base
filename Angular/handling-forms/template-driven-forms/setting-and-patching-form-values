@@ -1,0 +1,13 @@
+# Setting and patching form values
+
+In this example we want to populate this username input here with this username.
+
+We can use the setValue and here we need to pass a Javascript object exactly representing our form.
+
+Accessing the form with @ViewChild, you can call .setValue() to pass an object the same type as the form
+This will override all user inputs, though
+formName.form.patchValue() will set the value for only data specified.
+
+# Example
+
+this.formName.form.patchValue({ userData: { username: suggestedName }});
