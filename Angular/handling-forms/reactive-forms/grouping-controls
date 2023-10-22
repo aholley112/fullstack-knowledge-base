@@ -7,3 +7,5 @@ You can specificy a path because you might have a nested form. Such as username 
 Here we could create a form group called user data. FormGroup is not only there to be used on the overall form but you can have formgroup within a formgroup.
 
 We must reflect the nested form in our HTML template. 
+
+We must update our syncranization by wrapping our form controls in a div. On this div we place the formgroup name directive.
