@@ -1,0 +1,7 @@
+# Resetting forms
+
+We know how to extract the data and submit the form but now we want to know how to reset the form.
+
+This is very simple. On our form which in this case is fetched from our template with ViewChild. We can call reset like this...
+
+this.signupForm.reset();
