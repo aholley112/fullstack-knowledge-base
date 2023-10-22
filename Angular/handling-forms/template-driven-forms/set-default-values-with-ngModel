@@ -1,0 +1,6 @@
+# Set default values with ngModel
+
+Let's add some square brackets but no paranthesis because we're not using two way binding. 
+
+Control this input which is turned into an input by Angular in the background. So this selector can now be bound to a default value and you could either hardcode a string into there or you set up a property like defaultQuestion...
+
