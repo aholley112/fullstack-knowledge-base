@@ -1,0 +1,7 @@
+# Using ngModel for two way binding
+
+Sometimes you not only want to pre-populate a default the user entered but you also want to instantly react to any changes.
+
+Sometimes you might want to check something the user entered. 
+
+In terms of the two-way binding, the automatic data synchronization happens between the Model and the View, keeping both synced all the time. Because of this, any change made in the Model is immediately reflected in the View as well. And vice versa – changes made in the View are updated in the Model too.
