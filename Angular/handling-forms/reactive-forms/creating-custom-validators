@@ -1,0 +1,28 @@
+# Creating custom validators
+
+Built in validators should cover most of what we do. But we can also create custom ones. Here we will use Chris and Anna as forbidden usernames.
+
+A Validator is just a function. It gets called automatically when angular checks the validity of the FormControl.
+
+The function needs to receive the control to check and also must return a javascript object.
+
+forbiddenNames(control: FormControl): {[s: string]: boolean} {}
+Return {'shortErrorName': true} in your logic.
+
+Otherwise you must return null or omit the return altogether
+You then add your validator to your control.
+
+# Example
+
+'username': new FormControl(null, [Validators.required, this.forbiddenNames]),
+
+This code will result in an error, though, due to the way this is interpreted.
+
+You must bind 'this' as a workaround.
+
+this.forbiddenNames.bind(this)
+
+# Example
+
+if (this.forbiddenUsernames.indexOf(control.value) !== -1)
+Without !== -1, the statement returns true because -1 is truthy.
