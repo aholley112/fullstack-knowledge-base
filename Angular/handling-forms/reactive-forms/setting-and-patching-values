@@ -1,0 +1,7 @@
+# Setting and patching values
+
+You can of course on your form as a whole call setValue and pass a JS object which should now resemble the object structure up here when you create the form.
+
+We can set and patch values the same way we did in the template driven approach.
+
+setValue requires a form of the same format as initialized and patchValue can only set specific parts.
