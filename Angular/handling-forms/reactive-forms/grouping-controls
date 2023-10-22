@@ -1,0 +1,9 @@
+# Grouping controls
+
+Get takes the path to an element. 
+
+You can specificy a path because you might have a nested form. Such as username and email which should be inside of form group.
+
+Here we could create a form group called user data. FormGroup is not only there to be used on the overall form but you can have formgroup within a formgroup.
+
+We must reflect the nested form in our HTML template. 
