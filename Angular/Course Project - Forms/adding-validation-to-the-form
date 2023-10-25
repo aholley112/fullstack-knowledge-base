@@ -1,0 +1,7 @@
+# Adding validation to the form
+
+We want to add validation.
+
+So under ngModel in the component, we will add 'required'.
+
+To take advantage of this we want to disable the button if the form is invalid.
