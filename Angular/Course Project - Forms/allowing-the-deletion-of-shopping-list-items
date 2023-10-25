@@ -1,0 +1,7 @@
+# Allowing the deletion of shopping list items.
+
+Very similar to what we did with the ability to clear.
+
+We add an event listener on the button.
+
+We have to add ngIf to the button for it to work properly.
