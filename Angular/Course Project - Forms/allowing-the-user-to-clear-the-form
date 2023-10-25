@@ -1,0 +1,10 @@
+# Allowing the user to clear the form
+
+We just add a click listener and execute on clear. Then in the typescript file we add the onClear method
+
+We call
+
+onClear() {
+    this.slForm.reset();
+    this.editMode = false;
+}
