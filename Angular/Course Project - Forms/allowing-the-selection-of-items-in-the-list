@@ -1,0 +1,7 @@
+# Allowing the selection of items in the list
+
+We want to make the items editable by clicking them.
+
+We want to add a click listener to the item. We will call onEditItem.
+
+We need the ID.
