@@ -1,0 +1,7 @@
+# Loading the shopping list items into the form
+
+We want to get the item we want to edit so we need a new method.
+
+getIngredient will expect to get the index, a number, and return an ingredient from our array.
+
+Now we can reach out to the new method and store it in the edited Item. 
