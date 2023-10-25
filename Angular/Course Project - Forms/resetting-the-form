@@ -1,0 +1,12 @@
+# Resetting the form
+
+We always want to be able to reset the form. 
+
+We can call form.reset() but it doesn't work properly because initially, we are in editMode set to false and then we switch it to true whenever we get the startedEditing observable to fire.
+
+But the problem is we never switch it back.
+
+This is what we should do: 
+
+ this.editMode = false;
+    form.reset();
