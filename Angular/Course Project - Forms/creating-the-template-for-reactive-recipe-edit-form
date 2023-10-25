@@ -1,0 +1,5 @@
+# Creating the template for the Reactive Recipe Edit Form
+
+In the recipe exit component it doesn't have a form right now so we must change it.
+
+ In this vide we just added the HTML.
