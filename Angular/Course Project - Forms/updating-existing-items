@@ -1,0 +1,6 @@
+# Updating existing items
+
+We want to make sure we are updating an existing item instead of adding a new item every time.
+
+We want to add if we are indeed adding an item, otherwise it will be save. We have to change our buttons in the HTML.
+
