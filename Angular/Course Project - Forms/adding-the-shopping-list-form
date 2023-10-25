@@ -1,0 +1,9 @@
+# Adding the shopping list form
+
+We want to use the template driven approach here. 
+
+We need to get rid of the local references and the click listener on the add button.
+
+We now want to use ngSubmit to submit the form and then call on Add Item.
+
+We also want to get access to the form created by Angular and we can get access by placing a local reference on the form element.
