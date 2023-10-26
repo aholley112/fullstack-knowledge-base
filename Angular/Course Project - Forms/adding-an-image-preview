@@ -1,0 +1,7 @@
+# Adding an image preview
+
+In the recipe edit component we arn't binding the source.
+
+We need to add a local reference named image path.
+
+Then we have to bind the source to the local reference 
