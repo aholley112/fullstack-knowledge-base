@@ -1,0 +1,16 @@
+# Creating a custom pipe
+
+Create custom pipes to encapsulate transformations that are not provided with the built-in pipes. Then, use your custom pipe in template expressions, the same way you use built-in pipes—to transform input values to output values for display.
+
+# Marking the class as a pipe
+
+To mark a class as a pipe and supply configuration metadata, apply the @Pipe decorator to the class.
+
+Use UpperCamelCase (the general convention for class names) for the pipe class name, and camelCase for the corresponding name string. Do not use hyphens in the name.
+
+For details and more examples, see Pipe names.
+
+Use name in template expressions as you would for a built-in pipe.
+
+Include your pipe in the declarations field of the NgModule metadata in order for it to be available to a template. See the app.module.ts file in the example application (live example / download example). For details, see NgModules.
+Register your custom pipes. The Angular CLI ng generate pipe command registers the pipe automatically.
