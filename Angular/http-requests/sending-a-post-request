@@ -1,0 +1,22 @@
+# Sending a post request
+
+Let's start with creating a new post.
+
+in the appcomponent.ts file we have the onCreatePost(postData: { title: string; content: string }) {
+    send Http request
+    this.http.post('url from firebase')
+}
+
+We need to go to the app module and add a new core Angular module. We will use HttpClientModule from 'angular/common/http';
+
+You also add it to your imports array. This unlocks it for your whole project.
+
+inject it into your constructor
+
+constructor(private http: HttpClient) {}
+
+You never communicate direcly with a database from your angular app.
+
+add .json after your firebase API.
+
+You normally send JSON data when interacting with a RESTful API and actually, that will happen here but the Angular HttpClient will take our Javascript object here and automatically convert it to JSON. 
