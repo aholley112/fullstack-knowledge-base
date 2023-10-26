@@ -1,0 +1,7 @@
+# Redirecting the user after deleting
+
+The delete button isn't working as expecting because it's only updating the list.
+
+To change this we have to go to the recipe detail component where the button leaves and then we have to navigate away instead.
+
+We already have router injected so we just have to call this.router.navigate()
