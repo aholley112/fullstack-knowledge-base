@@ -1,0 +1,9 @@
+# Pure and impure pipes
+
+If we allow the user to add a new server it gets added here but you don't see it if we hit the button.
+
+This is not actually a bug. 
+
+# Reason for behavior
+
+Angular is not rerunning our pipe on the data whenever this data changes. As soon as we change what we enter and even if we only add a blank space, it will be updated. It triggers a recalculation.
