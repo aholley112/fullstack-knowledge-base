@@ -1,0 +1,9 @@
+# Adding new ingredient controls
+
+I still get an error from the controls line.
+
+But we use this
+
+(click)="onAddIngredient()">Add Ingredient</button>
+
+and now it shouldn't submit the form anymore.
