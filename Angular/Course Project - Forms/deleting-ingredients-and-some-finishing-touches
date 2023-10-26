@@ -1,0 +1,7 @@
+# Deleting ingredients and some finishing touches
+
+We need to update our delete button. We definitely don't want it submitting our form.
+
+We will add a click listener and set the type to button.
+
+Pass the information on which information should be deleted.
