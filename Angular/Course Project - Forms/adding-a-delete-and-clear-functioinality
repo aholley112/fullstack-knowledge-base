@@ -1,0 +1,7 @@
+# Adding a delete and clear functionality.
+
+There are three things we definitely want to do. 
+
+We should enable this delete button and when editing a recipe, no matter if creating a new one or editing an existing one, we should make the cancel butt on work and upon hitting save we should navigate away.
+
+delete recipe method in the recipe.service.ts
