@@ -1,0 +1,7 @@
+# Introduction and why pipes are useful
+
+Pipes are a feature built into Angular that allows you to transform output in your template.
+
+Sometimes we want to transform the way something is displayed when it's rendered to the screen.
+
+There are built in pipes.
