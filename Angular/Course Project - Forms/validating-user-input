@@ -1,0 +1,7 @@
+# Validating user input
+
+We have to have validation for the controls.
+
+When we initialize it in the initForm we want to add a built in validators package.
+
+We must import it. 
