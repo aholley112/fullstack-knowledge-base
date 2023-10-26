@@ -1,0 +1,7 @@
+# Module introduction
+
+So far we have only been in the broswer only. We control all our data with angular and store it in the browser.
+
+We can't currently persist data anywhere. 
+
+The frontend is what runs in the browser and it needs to communicate to a server.
