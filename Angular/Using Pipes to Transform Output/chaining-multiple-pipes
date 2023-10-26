@@ -1,0 +1,7 @@
+# Chaining multiple pipes
+
+We can combine pipes in angular.
+
+You can simply chain pipes by adding a pipe symbol after a pipe, so we could add uppercase here in our example.
+
+{{ server.started | date: 'fullDate' | uppercase }}
