@@ -1,0 +1,11 @@
+# Parametrizing Pipes
+
+A pipe is only responsible for transforming the output so the place to use it is in the template.
+
+We added the Uppercase pipe to transform the instance and the date pipe to transform the type.
+
+We want to configure it though because the layout isn't that great. So we are going to parametrize it.
+
+We add a colon and pass a paramter to it. 
+
+{{ server.started  date: 'fullDate' }}
