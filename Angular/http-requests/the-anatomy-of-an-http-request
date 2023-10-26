@@ -1,0 +1,11 @@
+# The anatomy of an Http request
+
+It is made up of a few core parts.
+
+The most important part is the URL (API Endpoint) something like yourdomain.com/1. 
+
+Http Verb - When communicating with a RESTful API you have to use a certain word. Something like post, get, put. Do you want to store new data, fetch new data, etc... The http word makes that clear
+
+You need additional metadata or headers. 
+
+You can also add body to your request. 
