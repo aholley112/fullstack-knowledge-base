@@ -1,0 +1,13 @@
+# Backend (firebase) setup
+
+We need a backend.
+
+We won't wwrite our own server solution. 
+
+Firebase is a whole backend solution.
+
+You will need a google account for this.
+
+Go to add project in Firebase. Give the project any name you want. This will create a new project for you. 
+
+It is a complete backend solution but it is not just a database.
