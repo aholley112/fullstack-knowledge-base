@@ -1,0 +1,13 @@
+# Creating the form for editing recipes.
+
+Now we have to initialize our form and we will use the reactive approach.
+
+# Important
+
+It is important to understand that if we are in edit mode or new mode and we do get this information, but why?
+
+Depending on the information we need to prepopulate the fields or not.
+
+Use new private method
+
+privateInitForm()
