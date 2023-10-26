@@ -1,0 +1,11 @@
+# Parametrizing a custom pipe
+
+We've already created the ShortenPipe but we want the user to specify the numbers of characters if we want to shorten the value.
+
+We can receive a second argument in the transform method, in this case, the limit.
+
+transform(value: any, limit: number) {
+    if (value.length > limit) {
+        return value.substr(0, limit) + '...'
+    }
+}
