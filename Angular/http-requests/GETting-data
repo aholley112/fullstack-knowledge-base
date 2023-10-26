@@ -1,0 +1,16 @@
+# GETting Data
+
+We need a request that gets us all the posts.
+
+Private property named:
+
+private fetchPosts() {
+    this.http.get(link from firebase).
+    .subscribe(posts => {
+        
+    })
+}
+    Get requests don't need a second argument because you're requesting data and not sending any data.
+
+
+You have to subscribe to it.
