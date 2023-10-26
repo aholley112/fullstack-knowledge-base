@@ -1,0 +1,7 @@
+# Submitting the recipe edit form
+
+Now that we have validation we want to update or save the recipe.
+
+This is done in the recipe edit component.
+
+We also have to change the service and the recipe list section.
