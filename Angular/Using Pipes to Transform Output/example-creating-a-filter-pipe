@@ -1,0 +1,7 @@
+# Example of creating a filter pipe
+
+Add a new element above our ordered list and have it be an input field.
+
+We want the user to be able to filter the service.
+
+We need the input text field and ue ngModel and bind it to FilterStatus.
