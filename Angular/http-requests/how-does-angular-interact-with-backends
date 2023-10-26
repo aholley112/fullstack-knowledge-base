@@ -1,0 +1,13 @@
+# How does angular interact with backends
+
+In the angular app you generate data like posts or recipes or whatever you have in your application and you want to store that data in a database.
+
+You also want to fetch it from there when the app restarts.
+
+You don't connect angular to a database directly. 
+
+You want to make sure your app is secure. There's an article about it.
+
+More on Securing JavaScript in the Browser: https://academind.com/learn/javascript/hide-javascript-code/
+
+Learn how to build a REST API: https://academind.com/learn/node-js/building-a-restful-api-with/
