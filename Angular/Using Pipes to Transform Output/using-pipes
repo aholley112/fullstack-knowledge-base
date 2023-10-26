@@ -1,0 +1,9 @@
+# Using pipes
+
+In the example project he gives the code responsible is set up in the app.component.html file.
+
+We output a list of servers and they are stored in the app.component.ts file.
+
+We have a helper class at the bottom which retrieves the right CSS class.
+
+Use pipes to transform strings, currency amounts, dates, and other data for display. Pipes are simple functions to use in template expressions to accept an input value and return a transformed value. Pipes are useful because you can use them throughout your application, while only declaring each pipe once.
