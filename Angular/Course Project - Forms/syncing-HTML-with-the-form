@@ -1,0 +1,10 @@
+# Syncing the html with the form
+
+First we have to add something to the app module.
+
+We need Forms Module and the Reactive Forms Module which has to be imported.
+
+Otherwise syncronizing will fail because we don't have access to the directives we need.
+
+
+My video does not match his. In edit mode it does not autopopulate the recipe.
