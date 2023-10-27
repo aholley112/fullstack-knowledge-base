@@ -7,4 +7,4 @@ But it's good practice to use observable operators because it simply allows us t
 
 We  need to import map from rxjs/operators
 
-This allows us to get data and return data which is then automatically re-wrapped into an observable. 
+This allows us to get data and return data which is then automatically re-wrapped into an observable so we can still subscribe to it.
