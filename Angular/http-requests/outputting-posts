@@ -1,0 +1,9 @@
+# Outputting posts
+
+Now that we're fetching it we need to output our data.
+
+*ngIf="loadedPosts.length < 1 ">No posts available!
+
+In the bottom of the ts we put
+
+this.loadedPosts=posts:
