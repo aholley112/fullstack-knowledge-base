@@ -1,0 +1,10 @@
+# Using RxJS operators to transform response data.
+
+Transforming data is something we could do here inside of subscribe and that would generally be okay.
+
+But it's good practice to use observable operators because it simply allows us to write cleaner code with different steps. 
+
+
+We  need to import map from rxjs/operators
+
+This allows us to get data and return data which is then automatically re-wrapped into an observable. 
