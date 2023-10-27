@@ -1,1 +1,22 @@
 # Using a service for Http Requests
+
+In bigger apps we already have a large component that is only indirectly related to the user interface.
+
+It's a nice practice to outsource the data into services
+
+Services do the heavy lifting and the components need to be relativly lean and need to be mostly concerned with template related work.
+
+Create a post.service.ts
+
+import { Injectable } from '@angular/core';
+@Injectable({providedIn: 'root'})
+export class PostsService {
+
+    constructor(private http: HttpClient) {}
+
+createAndStorePost(title: string, content: string) {
+    Http request from component.
+
+    .subscribe(responseData)
+}
+}
