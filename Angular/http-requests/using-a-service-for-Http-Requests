@@ -20,3 +20,5 @@ createAndStorePost(title: string, content: string) {
     .subscribe(responseData)
 }
 }
+
+I want to look into this further. The video went a little quick. Now on the web page it says that now we have no posts available. 
