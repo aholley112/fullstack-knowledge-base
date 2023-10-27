@@ -1,0 +1,13 @@
+# Showing a loading indicator
+
+After we output the loaded post we want to work on showing a loading indicator.
+
+We need an indicator to tell us if a request is on it's way while we're waiting on a response.
+
+Add a new property called isLoading which initially is false and you want to set isFetching and set it to true.
+
+this.isfetching = true.
+
+Then in subscribe function set it back to false.
+
+We can show a loading indicator while we're fetching posts.
