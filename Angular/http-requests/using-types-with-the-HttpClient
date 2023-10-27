@@ -2,3 +2,6 @@
 
 We want to output our posts but we need to do one other thing to improve our code. 
 
+We can assign a type on the argument we're getting in MAP. We know it will be an object where we have a randomly generated string. 
+
+map((responseData: {[key: string]})) 
