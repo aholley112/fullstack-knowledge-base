@@ -1,0 +1,14 @@
+//# Transforming response data
+
+//The example we used was
+
+//fetchRecipes() {
+ //   this.http
+//    .get<Recipe[]>(
+//      'https://ng-course-recipe-book-1b815-default-rtdb.firebaseio.com/recipes.json')
+ //   .pipe(
+ //     map(recipes => {
+ //       return recipes.map(recipe => {
+ //       return {...recipe, ingredients: recipe.ingredients ? recipe./ingredients : []};
+  //    });
+  //  }))
