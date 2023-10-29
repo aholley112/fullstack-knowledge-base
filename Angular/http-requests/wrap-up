@@ -1,0 +1,5 @@
+# Wrap up
+
+Official Docs: https://angular.io/guide/http
+
+The most common task you will do is of course that you send requests by using post, get and so on by adding a URL, possibly a request body and maybe some request headers.
