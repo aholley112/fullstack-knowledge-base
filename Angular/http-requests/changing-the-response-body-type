@@ -1,0 +1,13 @@
+# Changing the response body type
+
+You can configure the response type. The default here is JSON, which means the response data, so the data in the body of your response is JSON adn that tells Angular that it should automatically parse it and convert it to a JS object.
+
+You could tell it the response side will be tet and please don't try to convert it.
+
+fetchPosts() {
+    return this.http
+    url
+    headers: newHttpHeaders({ "custom-header': 'Hello' })
+    params: searchParams,
+    responseType: 'json'
+}
