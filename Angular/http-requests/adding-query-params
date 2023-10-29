@@ -1,2 +1,23 @@
 # Adding query params
 
+For many API endpoints you can also attach certain query paramaters and of course, it depends on the API endpoint you're sending the request to, which query paramaters are supported.
+
+# Example
+
+The firebase REST API supports one query paramater which effect we can immediately see. You set paramaters by adding the params key herre in that same config object where you added headers and you set params equal to new.
+
+Just as HTTP headers, you import HttpParams from @angular/common/http.
+
+# Multiple Params
+
+You can add multiple params by adding a search params constant
+
+fetchPosts() {
+    let searchParams = new HttpParams();
+    searchParams = searchParams.append('pring', 'pretty');
+    searchParams = searchParams.append('custom', 'key');
+    return this.http
+    etc
+    url
+    headers: new HttpHeaders({ 'Custom-Header })
+}
