@@ -1,1 +1,11 @@
 # Observing different types of responses
+
+You can change the way the Angular HttpClient parses that response and you can basically tell Angular, "hey, please don't give me the unpacked, the extracted response data."
+
+We have to change the observe key. Observe takes a couple of values and intellisense here incorrectly shows that I can only set a body, that actually is the default and body means that you get the response data extracted and converted to a JS object automatically. But you don't have to stick to body. You can change this to respose.
+
+deletePosts() {
+    return this.http
+    .delete(url)
+    observe: events
+}
