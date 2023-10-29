@@ -1,1 +1,15 @@
-# Using subjects for error Handling
+# Using subjects for error handling
+
+We could return the observable and subscribe to the component and that would be okay but there might be a better way.
+
+# How
+
+We can use a subject. 
+
+We can have the error property which is a new subject and 'subject' needs to be imported from rxjs/operators. The idea is that then we can subscribe, where we get that error, we now use the subject
+
+So this error, we call next and we pass an error message and then the remaining step is that we subscribe to that subject in all the places we're interested in.
+
+We would subscribe in ngOnInit for example, like this and whenever we get our error message here, we could set this error equal to the error message. 
+
+We can use a subject based strategy for forwarding the error and that is fine too.
