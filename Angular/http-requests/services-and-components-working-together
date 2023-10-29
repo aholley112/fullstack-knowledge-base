@@ -1,1 +1,7 @@
 # Services and components working together. 
+
+We can use a subject in the post service where we next our posts when we got them and we subscribe to the subject in the app component.
+
+But a simpler and better solution would be to return the result of our get method and of the pipe method thereafter and that would be our observable.
+
+So instead we only return the prepared observable here in the fetch posts and therefore right now no HTTP request gets sent because as you learned, requests are only sent when someone is interested.
