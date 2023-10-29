@@ -1,0 +1,11 @@
+# Multiple Interceptors
+
+Let's add a second intercepptor because we're not limited to one.
+
+In this example we will use logging-interceptor.ts.
+
+export class LoggingInterceptorService implements HttpInterceptor {
+    intercept(req: HttpRequest<any>, next: HttpHandler)
+}
+
+The order of the listed interceptors matters because it's the order they will be executed.
