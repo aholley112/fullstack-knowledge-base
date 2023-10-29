@@ -1,2 +1,12 @@
 # Using the catchError operator
 
+A special operator can assist you with handling errors.
+
+It needs to be imported from rxjs/operators.
+
+catchError(errorRes => {
+// send to analytics server
+return throwError(errorRes)
+});
+
+Now we can simply add our catch error operator here, we get our error response in here, so we get exactly the same data we would get in that second argument of the subscribe method.
