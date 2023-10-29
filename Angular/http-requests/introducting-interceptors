@@ -1,0 +1,11 @@
+# Introducing interceptors
+
+# What are they?
+
+We're sending our HTTP requets here and whenever we want to configure something like search params, we're doing it on a per request basis.
+
+But let's imagine we want to attach this custom header to all our outgoing requests and a more realistic scenario would be that you want to authenticate your user and you need to add a certain param or a certain header to every outgoing request
+
+We will create a new interceptro by adding a new file called auth intereptor.service.
+
+Now the intercept method allows us to run code and will run right before the request leaves our application.
