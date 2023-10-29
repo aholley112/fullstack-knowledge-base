@@ -1,0 +1,11 @@
+# Manipulating request objects
+
+Inside of an interceptor, you can not only log data, but you can also modify the request object.
+
+However, the request object itself is immutable, so you can't set request URL to a new URL, that will give you an error.
+
+Instead if you want to modify the request, you have to create a new one.
+
+# Example
+
+const modifiedRequest = req.clone({headers: req.headers.append('Auth', 'xyz')})
