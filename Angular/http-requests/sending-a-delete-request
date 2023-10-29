@@ -1,1 +1,18 @@
 # Sending a delete request
+
+We also want to clear our posts and delete data.
+
+When the onClear post method runs we want it to send a request that deletes all posts on the backend.
+
+We need to create deletePosts() {
+   return this.http.delete('the url that targets the overal posts)
+}
+
+Now in the app compoent we want to do this.
+
+onClearPosts() {
+    //send http request
+    this.postsService.deletePosts().subscribe(() => {
+        this.loadedPosts = []
+    })
+}
