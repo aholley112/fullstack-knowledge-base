@@ -1,0 +1,7 @@
+# Response interceptors
+
+We can also interact with the response. You do this by adding something here to handle because handle actually gives you an observable.
+
+# Example
+
+return next.handle(modifiedRequest).pipe(map);
