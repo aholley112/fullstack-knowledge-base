@@ -1,2 +1,11 @@
 # Error handling and UX
 
+If you properly handle errors it will improve the user experience.
+
+In our alert we can create a button so the user can get rid of an error message.
+
+<buttonclass = "btn btn-danger" (click) ="onHandleError()">Okay</button>
+
+then in the app component we create onHandleError and set it back to null.
+
+We also need to reset the inspection property when we get an error.
