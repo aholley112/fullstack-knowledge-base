@@ -1,1 +1,28 @@
 # Handling errors
+
+So far our requests have succeeded but sometimes things can go wrong like you might not have internet access or your server fails. Dozens of issues can go wrong.
+
+In firebase we can change the 'rules'. 
+
+Proper error handling matters.
+
+You can pass more arguments to subscribe in onFetchPosts in the app.component.ts.
+
+onFetchPosts() {
+// sending Http request
+this.isFetching = true;
+this.postsService.fetchPosts().subscribe(posts => {
+    this.isFetching = false;
+    this.loadedPosts = posts;
+});
+}
+
+In the app.component.ts we can add
+
+export class AppComponent implements OnInit{
+    loadedPosts: Post[] = [];
+    isFetching = false;
+    error = null;
+}
+
+and in the HTML we can add an alert.
