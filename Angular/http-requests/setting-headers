@@ -1,2 +1,21 @@
 # Setting headers
 
+Now we dive into more advanced parts of Angular http requests.
+
+When sending an Http request you set things like the URL, you send the request to and or in this case the post request. 
+
+Sometimes you need to set special headers like when you have a back end that requires authorization and looks for an authorization header or if you want to set your own content type. Also if you need to attach a custom header because your API you are sending the request to needs it.
+
+Any HTTP request method has an extra last argument. 
+
+HTTP headers object has to be imported from @angular/common/http.
+
+# Example
+
+fetchPosts() {
+    return this.http
+    .get<{ [key: string]: Post }>(
+        'url'
+{
+        headers: newHttpHeaders({ 'Custom-Header': 'Hello' })
+}
