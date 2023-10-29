@@ -1,0 +1,8 @@
+# Resolving data before loading.
+
+One way we can do this is to add a guard that prevents us from accessing recipes.
+
+
+The other way is to use a resolver which we covered in the routing module.
+
+A resolver is some code that runs before a route is loaded to ensure that certain data that route depends on gets there. 
