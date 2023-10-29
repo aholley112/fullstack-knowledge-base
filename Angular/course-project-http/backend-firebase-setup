@@ -1,0 +1,5 @@
+# Backend firebase setup
+
+We want to use firebase because we don't want to write any server-side code.
+
+Angular doesn't run on the server. 
