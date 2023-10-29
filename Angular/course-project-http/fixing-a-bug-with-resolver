@@ -1,0 +1,5 @@
+# Fixing a bug with a resolver.
+
+The resolver that is used fetches new recipes from the server and that overrides our existing recipes and the changes.
+
+Now we have to check that we only fetch new ones if we don't. 
