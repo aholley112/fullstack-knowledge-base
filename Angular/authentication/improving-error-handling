@@ -1,0 +1,11 @@
+# Improving error handling
+
+We can dig in further in developer tools to explore the nested errors. 
+
+In the firebase reference docs there are common errors.
+
+We could do all the handling in the component but that is not the best way. 
+
+It moves too much logic into the component, which should primarily focus on updating the UI and not so much aboout handling the response corrrectly.
+
+This is why we want to use rxJS operator.
