@@ -1,0 +1,11 @@
+ # How authentication works
+
+ We have to understand how it works first.
+
+ We have a client, the user using the browser, and the server. When email and password is entered it's sent to a server. We can't validate the authentication status in the browser. It has to happen on a server where the users can't do anything. 
+
+ Otherwise information could get changed or messed up.
+
+ Our backend, our server, will be an API.
+
+ In authentication, the user or computer has to prove its identity to the server or client. Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints.
