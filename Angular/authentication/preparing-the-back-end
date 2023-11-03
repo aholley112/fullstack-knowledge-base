@@ -1,0 +1,9 @@
+# Preparing the backend
+
+We need to be back in firebase. We don't need firebase to add authentication.
+
+You can add it with any back-end, be that a REST or a GraphQL API.
+
+It just needs to offer endpoints you can use to create new users and to log users in to get such a token.
+
+Change read and write to "auth != null"
