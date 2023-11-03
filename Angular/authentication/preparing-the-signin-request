@@ -1,0 +1,8 @@
+# Preparing the sign in request
+
+Article in official docs of Firebase over the REST APIs.
+
+We need sign up and sign in.
+
+We must iclude returnSecureToken
+
