@@ -1,0 +1,5 @@
+# Creating and storing user data
+
+We need to create a user model in the auth folder.
+
+user.model.ts file. This will help us validate if the token is still valid.
