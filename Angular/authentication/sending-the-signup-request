@@ -1,0 +1,9 @@
+# Sending the sign up request
+
+Now we have to fire up the sign in method and we do that by going to auth.component.ts.
+
+We need to extract the value instead of logging it.
+
+If the user disables this which is possible, the incorrect data will get sent to the back end and it will fail.
+
+We now have to inject the auth service into the auth component.
