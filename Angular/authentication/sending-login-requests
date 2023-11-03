@@ -1,0 +1,9 @@
+# Sending login requests
+
+We want to make sure we can send a request to the login input as well.
+
+We add a new login in the service.
+
+We also need to use the same API key and put it in the login. 
+
+Always look at the firebase reference because it tells you what you have to have.
