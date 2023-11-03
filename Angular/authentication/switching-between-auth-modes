@@ -1,0 +1,7 @@
+# Switching between auth modes
+
+In order to switch between login and sign up, in the auth component, we need to manage the currently active mode.
+
+We can add a property, isLoginMode.
+
+We created the buttons and onSwitchMode as well.
