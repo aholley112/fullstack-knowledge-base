@@ -8,4 +8,4 @@
 
  Our backend, our server, will be an API.
 
- In authentication, the user or computer has to prove its identity to the server or client. Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints.
+ The server sends back a token.
