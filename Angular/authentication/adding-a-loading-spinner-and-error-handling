@@ -1,0 +1,9 @@
+# Adding a loading spinner and error handling
+
+Let's start with the loading spinner and for this, you can enter CSS loading spinners to find loading.io which is a page where you find a lot of beautiful loading spinners.
+
+We created a loading-spinner.component.ts file and loading-spinner.component.css file.
+
+The loading spinner gives the spinner for the user when something is loading. 
+
+We have to add loading spinner to the app.module.ts.
