@@ -1,0 +1,7 @@
+# Log in error handling logic
+
+We get the full error response right now. That's why we see object object.
+
+We want to share the error handling logic between the sign up and the observable.
+
+We create a new private method in the observable.
