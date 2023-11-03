@@ -1,0 +1,6 @@
+# Handling form input
+
+We will use the template driven approach.
+
+The email will receive ngModel.
+
