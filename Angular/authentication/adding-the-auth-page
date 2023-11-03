@@ -1,0 +1,6 @@
+# Adding the auth page
+
+It's time for new routes.
+
+We created a new folder in the app called Auth. Then we created an auth.component.html and auth.component.ts file.
+
