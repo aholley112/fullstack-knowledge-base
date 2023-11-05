@@ -1,0 +1,8 @@
+
+Let's start by forwarding the user to a different route once the user is logged in.
+
+You can redirect from the component or inside the service.
+
+Both are valid. 
+
+We must change the auth and the header.
