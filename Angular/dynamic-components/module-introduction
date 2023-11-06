@@ -1,0 +1,7 @@
+# Module introduction
+
+Components which you create dynamically at run time.
+
+Dynamic components is not a specific feature. We just add components that we load through our code.
+
+We will learn how to create it, how to load it on demand, and how to communicate with it.
