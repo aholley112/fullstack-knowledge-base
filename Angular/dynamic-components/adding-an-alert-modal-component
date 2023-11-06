@@ -1,0 +1,7 @@
+ # Adding an alert modal component
+
+ We create a new folder in the shared folder called alert.
+
+ Then we create alert.ts and alert.html
+ 
+
