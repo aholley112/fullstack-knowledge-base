@@ -1,1 +1,13 @@
 # Wrap Up
+
+We have added an auth service to manage the entire front end authentication logic.
+
+We can switch between sign up and sign in, error message handling, storing tokens, etc.
+
+The token can fetch data and save data from our firebase backend.
+
+There's more to managing the token. We want to store it somewhere that survivies browser reloads.
+
+Auth guards protect routes from unauthenticated access.  
+
+We also made sure header is updated correctly based off our authentication service.
