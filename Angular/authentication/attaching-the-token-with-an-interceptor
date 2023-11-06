@@ -1,0 +1,11 @@
+# Attaching the token with an interceptor
+
+We've already added the token to fetch recipes. Now we want to add it to store recipes.
+
+We're going to manipulate all the outgoing requests in the same way.
+
+# How do we do this?
+
+We use an interceptor.
+
+We created auth-interceptor in the auth folder. 
