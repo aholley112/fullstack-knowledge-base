@@ -1,1 +1,7 @@
 # Adding logout
+
+Before we protect our routes we need to make sure that logging out works so if I am logged in, the logout button will actually work.
+
+We have to do this in our auth service by adding a log out method.
+
+User our user subject, call next, and pass null.
