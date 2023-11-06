@@ -1,0 +1,7 @@
+
+# Adding the token to outgong requests.
+
+Firebase doesn't know that we are authenticated and that we have that token somewhere. We're not attaching it to the outgoing request.
+
+We need to add the token to the outgoing request. We need to manipulate the outgoing HTTP requests that are related to data storage and fetching.
+
