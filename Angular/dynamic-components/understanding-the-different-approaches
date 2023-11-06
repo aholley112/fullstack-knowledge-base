@@ -1,0 +1,16 @@
+# Understanding the different approaches.
+
+Dynamic components just mean you want to display some component dynamically. It's not always there but it's there once something specific happens in your code.
+
+You want to control programmatically when it should be displayed.
+
+# *ngIF
+
+*ngIF allows you to use a declarative approach and then it only loads upon a certain condition.
+
+Component embedded via selector(declaratively)
+controls whether component is added to the DOM
+
+# Alternative (dynamic component loader)
+
+This doesn't exist anymore and you shouldn't use it anymore. 
