@@ -1,1 +1,7 @@
 # Adding an auth guard
+
+We need to prevent users from visiting recipes if they aren't authenticated?
+
+We need route guards. We need to be able to run logic right before the page is loaded.
+
+Create a new file in auth folder called auth.guard.ts
