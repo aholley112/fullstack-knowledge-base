@@ -1,1 +1,7 @@
 # Adding auto logout
+
+Our token will expire after one hour once we get it. Right now the bug is that this token won't expire but the application won't reflect that.
+
+We must go to the auth.service and make sure that we clear the snapshot. 
+
+localStorage.removeItem('userData');
