@@ -1,1 +1,9 @@
 # Adding auto login
+
+We want to keep the token once we reload the page.
+
+We're storing the token in the user model in the memory right now and we lose that when the application restarts because it clears automatically.
+
+So we want to store the token somewhere else instead like a persistence storage that survives restarts.
+
+We need to go to the handle authentication method.
