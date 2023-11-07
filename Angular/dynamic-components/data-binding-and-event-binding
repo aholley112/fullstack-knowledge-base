@@ -1,0 +1,11 @@
+# Data binding and event binding
+
+In our alert component we do have @input and @output but we're not using property or event binding on our component at the moment becuase we created it here in code.
+
+How can we pass data into the component or listen to an event now?
+
+We have to store the component inside of a constant or variable where we can work.
+
+const componentRef.
+
+Now we can interact with it.
