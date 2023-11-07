@@ -1,0 +1,9 @@
+# Using ngIf
+
+At the moment, because of ngIf, our alert component is included in our auth.component.html with its selector and controlled with ngIF.
+
+The advantage is that we don't have to manually create it and we can also pass data in as we learn it here with property binding.
+
+Listening to events is simple as well.
+
+Emitting an event in alert.ts is what we do to use output.
