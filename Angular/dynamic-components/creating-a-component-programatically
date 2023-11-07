@@ -1,0 +1,7 @@
+# Preparing Programmatic Creation
+
+In the auth component we need to add a new element.
+
+We should use ng template. 
+
+This is a directive Angular ships with, which will not actually render anything to the DOM but still is accessible in the Angular templating language.
