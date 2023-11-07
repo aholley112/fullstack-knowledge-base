@@ -1,0 +1,7 @@
+# Wrap up
+
+We learned about 2 ways of creating a component dynamically.
+
+ngIf is the simpler approach. Angular does all the heavy lifting and we're not cluttering the DOM with unused content.
+
+But we can also want to do it programatically by creating componentFactory.
