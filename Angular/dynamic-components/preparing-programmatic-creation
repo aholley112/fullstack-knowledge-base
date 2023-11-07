@@ -1,0 +1,9 @@
+# Preparing programmatic creation
+
+We now want to create the alert component dynamically and show it dynamically.
+
+Programatically is the right word instead of dynamically.
+
+We need a new method in the auth.component.ts that is private.
+
+showErrorAlert
