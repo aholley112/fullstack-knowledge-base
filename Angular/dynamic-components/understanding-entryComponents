@@ -1,0 +1,6 @@
+# Understanding entry components
+
+If you're not getting the error I see then you are using a newer version of Angular. Specifically 9 or higher.
+
+If you are getting the error then it's because it didn't find the component for factory alert.
+
