@@ -1,0 +1,13 @@
+# Modules and services
+
+We can provide services in the app module, in the app component or other components, eager loaded module, or lazy loaded module.
+
+ @injectable decorator.
+
+When you provide a service in @injectable or in the app module it's available application wide. You're always working with the same single instance. The app module should be the default. You use a root injector.
+
+If you provide it in a component, it's only available for dependency injection in that component tree. Use component specific injector. Use if service is only relevant for component free.
+
+If you provide it in an eager loaded module it's service available app wide as well, just like in the app module. Use root injector but always avoid this. This can be confusing for other coders.
+
+A difference is when its in lazy loaded module. Service available in loaded module only. Use the child injector and use if service should be scoped to loaded module. 
