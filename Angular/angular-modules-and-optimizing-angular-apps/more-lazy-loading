@@ -1,0 +1,5 @@
+# More lazy loading
+
+Let's make sure we do the same thing for the shopping list and the auth module. 
+
+We add a new path, shopping list and there we add load children and point to the shopping list in the shopping list module.
