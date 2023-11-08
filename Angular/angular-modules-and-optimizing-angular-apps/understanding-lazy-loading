@@ -1,0 +1,9 @@
+# Understanding lazy loading
+
+Using multiple feature modules is a prerequesite for lazy loading.
+
+Consider we have 3 routes, a route, products, and admin and a user that's visiting that page.
+
+Every route is associated with a module. 
+
+For large applications with lots of routes, consider lazy loading —a design pattern that loads NgModules as needed. Lazy loading helps keep initial bundle sizes smaller, which in turn helps decrease load times.
