@@ -1,0 +1,11 @@
+# Ahead of time compilation
+
+Our code and templates includes syntax only Angular understands (e.g. *ngIf)
+
+TypeScript compiler compiles your code to JS.
+
+Angular compiler (automatically included in built code) compiles template syntax to JS DOM instructions. 
+
+JIT Just in Time Compilation. Angular template compiler runs in browser at run time. 
+
+AoT Ahead of time compilation angular template compiler runs during build process and not in the browser.
