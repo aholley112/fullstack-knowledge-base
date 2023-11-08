@@ -1,0 +1,7 @@
+# Preloading lazy loaded code
+
+Right now we load code whenever we need it. Right now we have a tiny delay in our application. But the bigger the module and the slower the internet connection, the longer the delay will be.
+
+We can tell angular to preload lazy loaded modules.
+
+We go to app routing module and pass a second argument. A preloading strategy.
