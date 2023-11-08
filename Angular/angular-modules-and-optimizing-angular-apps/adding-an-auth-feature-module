@@ -1,0 +1,7 @@
+# Adding an auth feature module
+
+We have some imports we might not need in the App Component anymore. We can drop the reactive forms module, the auth component, and the forms module.
+
+We will create another file called auth.module.ts file and export AuthModule which receives our normal NgModule decorator.
+
+Then pass everything we need to it.
