@@ -1,0 +1,9 @@
+# Getting started with feature modules
+
+We could split our app.
+
+We could break down further into feature modules, products module, and orders module.
+
+This ensures that when other developers work on our code they quickly know where to look for the set up. It also helps us to find things in our code easier. 
+
+But you must make logical organization choices.
