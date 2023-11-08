@@ -1,0 +1,13 @@
+# Understanding shared modules.
+
+Now we dive into shared modules.
+
+Products Module includes modal component, Dropdown Directive, FormsModule, ProductsComponent.
+
+SalesModule includes all the same except instead of ProductsComponent you have SalesComponent. 
+
+We use the shared folder and create a shared.module.ts file.
+
+Imports you can do twice but declarations you can't.
+
+You declare it once.
