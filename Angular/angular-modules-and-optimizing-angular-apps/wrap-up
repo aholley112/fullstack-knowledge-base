@@ -1,0 +1,9 @@
+# Wrap up
+
+NgModules, what they do, what types, and when to use them.
+
+Routing in the modules and lazy loading.
+
+Services and modules and what's special about them. And that you can set up preloading to optimize preloading. 
+
+AoT compilation you want to use before shipping your app to a server. 
