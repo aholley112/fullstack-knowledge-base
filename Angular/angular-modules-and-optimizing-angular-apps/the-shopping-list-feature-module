@@ -1,0 +1,5 @@
+# The shopping list feature module.
+
+Create a shopping-list.service.ts file and move what you need from the app module and the app-routing module.
+
+We are doing this the same as we did for the recipes.
