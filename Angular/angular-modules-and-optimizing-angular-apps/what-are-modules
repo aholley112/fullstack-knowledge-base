@@ -1,0 +1,16 @@
+# What are modules
+
+ngModule.
+
+Modules are ways of bundling angular building blocks together: appComponent, productsComponent, HighlightDirective, ProductsService.
+
+
+AppModule: Angular analyzes NgModules to understand your application and it's features.
+
+AppComponent: angular modules define all building blocks your app uses: Components, Directives, Services.
+
+ProductsComponent: An app requires at least one module (AppModule) but may be split into multiple modules.
+
+HighlightDirective: Core Angular features are included in Angular modules (e.g. FormsModule) to load them only when needed.
+
+ProductsService: You can't use a feature/building block without including it in a module.
