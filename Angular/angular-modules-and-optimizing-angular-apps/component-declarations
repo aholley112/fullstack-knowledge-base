@@ -1,0 +1,7 @@
+# Component declarations
+
+We split into at least two modules now. We will learn about different types but let's talk about components
+
+The Recipes Component is loaded whenever we visit /recipes. It's declared in the recipes module.
+
+You don't just add the declarations but you also have to add the routes to avoid routing conflict.
