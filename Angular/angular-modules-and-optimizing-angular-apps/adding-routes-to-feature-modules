@@ -1,0 +1,7 @@
+# Adding routes to feature modules.
+
+We restructure to have leaner modules but we can do more than that.
+
+We can also move the recipes related app configuration away from the app routing module and into our recipes module.
+
+We created an extra file: recipes-routing.module.ts
