@@ -1,0 +1,7 @@
+# Splitting modules correctly
+
+We must fix the error from the previous lesson.
+
+We could import RouterModule without for root but the application still fails.
+
+Broser Module has to be in the app module. Use the Common Module in all other places you want to get access to NgIf and NgFor.
