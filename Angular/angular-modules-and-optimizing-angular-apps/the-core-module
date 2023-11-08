@@ -1,1 +1,7 @@
 # The core module
+
+All the modules are created in the same way with NgModule.
+
+Different module types just means what you put in there is different.
+
+The core module is there to make the app module leaner.
