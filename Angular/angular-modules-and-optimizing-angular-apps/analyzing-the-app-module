@@ -1,0 +1,12 @@
+# Analyzing the app module
+
+Look at what has the @NgModule decorator.
+
+It's in app routing as well as the app component in the app.module.ts.
+
+The declerations are necessary because everything in our declerations are there so that we can use them elsewhere in our application.
+
+The imports array is important because it splits the app into multiple modules.
+
+Providers array defines the services we want to provide.
+
