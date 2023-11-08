@@ -1,0 +1,9 @@
+# Implementing lazy loading
+
+If you go to network tab and reload the app on the auth page, you will see it downloads a bunch of files.
+
+We currently have really big files in that network section. 
+
+We add lazy loading to help this. Start with the recipes module.
+
+For lazy loading to work your features module needs to bring its own routes.
