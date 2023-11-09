@@ -1,0 +1,10 @@
+# Deployment preparation and steps.
+
+1st step: Use and check environment variables.
+
+2nd step: Polish and test code. In the optimization and modules section we covered a lot of this. example: lazy loading.
+
+3rd step: ng build --prod. We saw this in the optimizations module we also need to implement AoT (ahead of time) compilation and that's just one of the many optimizations the Angular CLI does.
+It needs to be as small as possible so the user has to download as little as possible.
+
+4th Step: Generate files to a static host. What is a static host? It's a web server capable of running HTML, JS, and CSS but nothing else.
