@@ -1,0 +1,5 @@
+# Module introduction
+
+Now we will learn how to take the application as you build it locally and deploy it to a server, so that the app doesn't just run on our machine, but also runs on a server where it has it's own domain.
+
+We will talk about preperations and then how to host.
