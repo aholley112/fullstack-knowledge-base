@@ -1,0 +1,9 @@
+# Transitions
+
+Right now we can only hard change between states.
+
+now we implement the transition method and it must be imported from angular core.
+
+It allows us to describe how the transition from one state to another state should be animated. 
+
+We specifiy animate and also import animate from angular core.
