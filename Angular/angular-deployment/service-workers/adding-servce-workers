@@ -1,0 +1,23 @@
+# Adding service workers
+
+Our JS code runs in a single thread. Our application which contains multiple pages runs on that single thread.
+
+JS and the browser allows us to run an additional thread. 
+
+We can use a service worker which runs on an additional thread, decoupled from HTML pages. It can continue running and even receive push notifications. Another important thing it does is manages all pages of given scope (e.g. all pages of a domain).
+
+ A service worker can be seen as a proxy between your app, the front end app and the HTTP request you're sending to the backend.
+
+ There is a special package we can install. 
+
+ # What to run
+ 
+ Quit Ng Serve and then run ng add @angular/pwa.
+
+ Then we can start with a preconfigured service worker.
+
+ Must have ServiceWorkerModule imported in the app module.
+
+ then we use ng build --prod
+
+ 
