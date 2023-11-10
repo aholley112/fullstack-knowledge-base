@@ -1,0 +1,18 @@
+# The void state
+
+This far we've only animated the div.
+Now we want to add a new trigger.
+
+Change the state to 'in' in trigger.
+
+The in state is how it should look once it's finally there.
+
+We add an opacity of 1 so it's not invisible. 
+
+The first transition is when we add it to the DOM. 
+
+VOID is a reserved name.
+
+Change from non existent to any state.
+
+Void state: The void state represents the state of an element which is not a part of the DOM. This state occurs when an element is created but not yet placed in the DOM or the element is removed from the DOM. This state is useful when we want to create animations while adding or removing an element from our DOM.
