@@ -1,0 +1,11 @@
+# Transition phases
+
+Now we only have starting and ending state.
+
+But we can not only paste the timing we can control the whole animation and define styles the animations should take during animation.
+
+Pass a second argument.
+
+We can also define the style during the state and animation. So we pass a JS object. 
+
+We're going to replace the animate function with an array.
