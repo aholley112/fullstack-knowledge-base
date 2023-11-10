@@ -1,0 +1,11 @@
+# Advanced transitions
+
+If you want to use the same timing you don't have to duplicate it.
+
+You can use one line and make an arrow point in both direction. 
+
+We now use wildState. We need to bind it to the wildState animation trigger and we also want to make a new property.
+
+I want to have my normal and highlighted style but I want to set up a third state. The shrunken state.
+
+give this styling just as the others. 
