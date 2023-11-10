@@ -1,0 +1,13 @@
+# Animations triggers and state
+
+We're going to the app component.
+
+We add animations: [] into the @Component.
+
+We will use the same name as we do in normal CSS styles.
+
+Each animation has a trigger and that has to be imported. 
+
+With a trigger, which is a function, we tell Angular we want to define a certain name. 
+
+You transition from state one to state two when we're working with them. 
