@@ -1,0 +1,10 @@
+# Using animation callback
+
+There are some callbacks you can listen to so when the animation finishes you can execute some other code.
+
+In the app component on the div element we can listen to callbacks.
+
+(@divState.start)="animationStarted($event)'
+(@divState.done)="animationEnded($event)
+
+Then make sure it's in our ts component.
