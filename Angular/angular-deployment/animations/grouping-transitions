@@ -1,0 +1,11 @@
+# Grouping transitions
+
+We can add a new animate function if we want a second style.
+
+We have to be careful and make sure that the order is correct.
+
+If we don't want one animation to finish before starting the next we can use this by passing or by using the group method.
+
+We have to import this from angular core.
+
+We pass an array of animations we want to perform syncronously or at the same time.
