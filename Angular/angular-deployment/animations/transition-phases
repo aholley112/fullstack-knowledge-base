@@ -9,3 +9,5 @@ Pass a second argument.
 We can also define the style during the state and animation. So we pass a JS object. 
 
 We're going to replace the animate function with an array.
+
+You have to end with animate(500) or something like that to make sure it doesn't snap back at the end.
