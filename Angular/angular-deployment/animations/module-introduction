@@ -1,0 +1,5 @@
+# Module introduction
+
+What we're going to talk about now is animations and what use ships with its own animation system which we can use to render addition of items to a list or deconditionall at hatching or detaching of elements.
+
+If you add something to the dom that isn't there before it's hard to handle this with a CSS transition.
