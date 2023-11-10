@@ -1,5 +1,7 @@
 # Animations triggers and state
 
+Also use the resource: https://angular.io/guide/transition-and-triggers
+
 We're going to the app component.
 
 We add animations: [] into the @Component.
