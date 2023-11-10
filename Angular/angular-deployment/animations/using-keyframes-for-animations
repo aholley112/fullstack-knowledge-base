@@ -1,0 +1,31 @@
+# Using keyframes for animations
+
+We want to go over two more things.
+
+A more detailed control over the individual steps in the animation process.
+
+We want to define some keyframes to say you animate over one second. After 200 you should have this state and then after 500, this state.
+
+Copy our trigger a final time and set up list two.
+
+[@List2]
+
+Keyframes are for the time DURING the transition. 
+
+This is what we used: trigger('list2', [
+      state('in', style({
+        opacity: 1,
+        transform: 'translateX(0)'
+      })),
+      transition('void => *', [
+        animate(1000, keyframes([
+          style({
+            transform: 'translateX(-100px)',
+            opacity: 0,
+            offset: 0
+          }),
+          style({
+            transform: 'translateX(-50px)',
+            opacity: 0.5,
+            offset: 0.3
+          }),
