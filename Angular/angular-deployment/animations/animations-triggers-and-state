@@ -13,3 +13,5 @@ Each animation has a trigger and that has to be imported.
 With a trigger, which is a function, we tell Angular we want to define a certain name. 
 
 You transition from state one to state two when we're working with them. 
+
+We won't see the change until we change our div in the HTML
