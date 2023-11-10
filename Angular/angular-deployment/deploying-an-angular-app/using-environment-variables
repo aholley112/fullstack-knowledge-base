@@ -1,0 +1,13 @@
+# Using environment variables
+
+First we have to dive into the enviornment variable.
+
+It's built into every project in the source folder, app folder, environments
+
+You can store the API key in the environments page.
+
+During production, the constant will be true. And in the other one, it will be false. 
+
+Some API keys are meant to use during development and some may only be for production.
+
+Once you add your keys to your enviornment page you need to go back and import them in the auth service file.
