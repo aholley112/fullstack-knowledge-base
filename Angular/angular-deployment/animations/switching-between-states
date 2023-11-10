@@ -1,0 +1,7 @@
+# Switching between states
+
+Right now we can display one state. Now we want to animate the transition between both states. 
+
+add onAnimate() [
+    this.state == 'normal' ? this.state = 'highlighted'
+]
