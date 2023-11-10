@@ -1,5 +1,9 @@
 # Module introduction
 
-We will turn online only application into an offline application by adding a service worker.
+We will turn online only application into an offline application by adding a service worker. And we will learn how you configure it to fully meet your needs.
 
-And we will learn how you configure it to fully meet your needs.
+It's rendering a list of dummy block posts which are fetched in our app component with jsonplaceholder.
+
+If we inspect our app in chrome we can go to the application tab and turn it to offline mode. This is in developer tools. This will simulate no internet connection.
+
+We can use a service worker to to the app with angular.
