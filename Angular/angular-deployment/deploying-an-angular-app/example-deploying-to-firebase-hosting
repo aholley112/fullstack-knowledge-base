@@ -1,0 +1,28 @@
+# Example deploying to a Firebase hosting
+
+Now we can build after we have environemnt added.
+
+ng build --prod.
+
+npm install -g firebase-tools
+firebase login
+firebase init
+We selected Hosting for the Firebase CLI features we want to set up this folder.
+Next, choose the project name.
+Instead of using the public directory it says, we use the name of our dist/course-project folder or whatever that folder is in your project.
+Select YES to configure as a single page agg.
+No to overwrite
+firebase deploy
+
+
+
+
+It compiles your typescript code to JS. It also compiles all your templates to instructions. So in the end JS code that runs in the browser and contains all the logic for updating the DOM.
+
+ngbuild creates a DIST folder. These are all things you need to deploy. All the files make up your app. 
+
+Now we need a static website host. We can use google.
+
+AWS amazon S3 is a good one. You need an account.
+
+Firebase is a good host too. You need firebase CLI. We install it. npm install -g firebase-tools
