@@ -1,0 +1,9 @@
+# Caching dynamic assets and urls
+
+We can also prefetch the API.
+
+We add a new configuration item called dataGroups.
+
+We have assetGroups here but we can have dataGroups for dynamic data. Data you request from an API or that might change frequently.
+
+One dataGroup is an object. Define a name of your choice. Here we choose: "post". Then we define the URLs we want to handle. In this case it's the URL in our app component. 
