@@ -8,4 +8,8 @@ Asset groups are configurations that define which static assets should be cached
 
 Dynamic assets, for example, would be the data from the API. So it's not static. It changes frequently.
 
-Our HTML file, our JS code will also change.
+Our HTML file, our JS code will also change. 
+
+We can give an assett group any name we like. 
+
+There is also an update mode. updateMode can be : "prefetch"
