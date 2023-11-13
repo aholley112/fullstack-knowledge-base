@@ -1,0 +1,15 @@
+# Why unit testing
+
+Why would we want to create unit tests?
+Unit tests help us guard against breaking changes.
+We can analyze code behavior (expected and unexpected).
+We can reveal design mistakes
+
+UserCoponent [user]="selectedUser". We can ask the question does the component work as intended. We can also ask does the input work as intended.
+
+UserDetailComponent @Input() user;
+
+ReversePipe
+UserService
+
+Hopefully we get a true in our response.
