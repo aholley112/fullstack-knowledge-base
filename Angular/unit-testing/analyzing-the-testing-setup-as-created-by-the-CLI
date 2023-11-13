@@ -1,0 +1,14 @@
+# Analyzing the testing setup as created by the CLI
+
+At the end of this module there is a link to the official docs with a great article about testing.
+
+The app component spec file has many tests.
+
+We need to bootstrap the app and then set up the module to execute certain tasks the user might do or see and that is what's happening in this file.
+
+We import the testing package angular ships with and then we describe our to be tested unit.
+
+A typical test run is Karma
+
+Test bed is basically the main Angular testing utility object.
+
