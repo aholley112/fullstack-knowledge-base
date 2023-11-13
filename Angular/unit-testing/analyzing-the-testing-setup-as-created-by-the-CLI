@@ -12,3 +12,6 @@ A typical test run is Karma
 
 Test bed is basically the main Angular testing utility object.
 
+We have to reflect our actual application when we test.
+
+We call detect change to trigger changes. 
