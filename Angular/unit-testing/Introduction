@@ -1,0 +1,7 @@
+# Introduction
+
+Testing is something you want to do in your project which actually improves your project.
+
+We will learn how to write tests with Angular CLI and find resources for non CLI projects.
+
+We will also learn the why behind everything in this course. We will test a basic component, a service, and a pipe.
