@@ -1,0 +1,23 @@
+# Testing dependencies: Components and Services
+
+So far we've had simple tests. Now we're going to add a service to our user folder.
+
+User.service.ts 
+
+Export class UserService {
+    user: = {
+        name: 'Max'
+    };
+}
+
+In user component.ts. 
+
+ngOnInit() {
+    this.user = this.userService.user;
+}
+
+provide in the @Component.
+
+We want to get the username from the service so we have to create a new test for that. We're doing this test on ngInit but we're missing one thing which happens automatically in the app running in the browser but not here.
+
+We need to run change detection to update our properties.
