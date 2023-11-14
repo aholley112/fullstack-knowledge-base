@@ -1,0 +1,13 @@
+# Running tests with CLI
+
+In the terminal run ng Test.
+
+What this will do is it will start up the testing environment and we can ignore these warnings that pop up. It starts up Carmer. And then we see that it executed three of three tests successfully.
+
+# Changing something to see a test fail
+
+If we go to the app component and change app works to app works without the second piece, we see that it will automatically fail.
+
+We can interpret the test results to find out what's going on. 
+
+We can add some things while it's running as well. 
