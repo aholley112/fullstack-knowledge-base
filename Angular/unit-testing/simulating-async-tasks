@@ -1,0 +1,9 @@
+# Simulating async tasks
+
+Create a new data service in the shared folder. This will have an asyncronous function we want to test. It needs a get details method.
+
+Pass resolve and reject as the arguments to our call back constructor.
+
+In a real application you don't always want to reach out to the server every time you test it. You just want to provide some dummy data.
+
+How can we test such an asynchronous task when the stage changes during the runtime? We will write a seperate test for this and change fetch data to successfully and we will use async function that we have imported. Then wrap our call back with the function.
