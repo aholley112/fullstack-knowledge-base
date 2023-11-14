@@ -1,0 +1,22 @@
+# Adding a component and some fitting tests.
+
+Add a new component. NGC and we name it user component. 
+
+In the HTML we create a new div. 
+<div *ngIf="isLoggedIn">
+<h1>User Logged In</h1> 
+<p>User is: {{ user.name }}</p>
+</div>
+<div *ngIf="!isLoggedIn">
+<h1>User not logged in</h1> 
+<p>Please log in first</p>
+</div>
+
+
+In the TS file have a 
+user: {name: string};
+isLoggedIn = false;
+
+Create a test it('name of your choice', () => {
+    let fixture = TestBed.createComponent(UserComponent);
+});
