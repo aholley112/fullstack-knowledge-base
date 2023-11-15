@@ -7,3 +7,5 @@ This must be imported from angular. Then we can get rid of the whenStable functi
 Tick also has to be imported. It means in a fake asyncronous environment, finish all asyncronous tasks now.
 
 We can use async either in the first way where we have whenstable and the on the callback we have the expectation or we can do it the fake way.
+
+They take the same time, they are just different philosophies.
