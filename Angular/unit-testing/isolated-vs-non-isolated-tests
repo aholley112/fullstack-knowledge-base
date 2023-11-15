@@ -1,0 +1,3 @@
+# Isolated vs non isolated tests
+
+A pipe can be tested totally independent of Angular 2. 
