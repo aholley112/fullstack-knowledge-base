@@ -5,3 +5,5 @@ Create a new trigger() that is called "swoopIn".
 This animation should use the state "in" to have the element eventually be the normal size and full opacity.
 
 Add the transition() method that listens for the ":enter" event and animates using keyframes the "transform", "opacity", and "offset" properties from 0 to 1.
+
+NOTE: Be sure to import { animate, keyframes, state, style, transition, trigger } from "@angular/animations".
