@@ -2,4 +2,6 @@
 
 We have an alternative. It's only theoretically aynchronous. We can copy the test and call fakeAsync as well.
 
-This must be imported from angular.
+This must be imported from angular. Then we can get rid of the whenStable function and then we call tick() in between.
+
+Tick also has to be imported. It means in a fake asyncronous environment, finish all asyncronous tasks now.
