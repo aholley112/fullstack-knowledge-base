@@ -1,3 +1,11 @@
 # Isolated vs non isolated tests
 
 A pipe can be tested totally independent of Angular 2. 
+
+# Why
+
+It has this transformed function where you pass a string in and get a string out.
+
+ISOLATED AND NON-ISOLATED TESTS
+
+The basic difference between the isolated and non-isolated tests is that the isolated tests are those which does not depend on any other piece of our Angular application. So the isolated tests are those which can be run individually without the need of Angular itself i.e. it does not depend upon any of the piece of our Angular app. So the thing which comes in mind is that does the thing we want to test depend on Angular 2 or other pieces of our Angular app? If yes, then we got the testing utilities like TestBed which allows us to create the components, access the injector, setup the module for testing and so on. 
