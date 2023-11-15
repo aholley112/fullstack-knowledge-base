@@ -5,3 +5,5 @@ We have an alternative. It's only theoretically aynchronous. We can copy the tes
 This must be imported from angular. Then we can get rid of the whenStable function and then we call tick() in between.
 
 Tick also has to be imported. It means in a fake asyncronous environment, finish all asyncronous tasks now.
+
+We can use async either in the first way where we have whenstable and the on the callback we have the expectation or we can do it the fake way.
