@@ -1,1 +1,5 @@
 # Using fake async and tick
+
+We have an alternative. It's only theoretically aynchronous. We can copy the test and call fakeAsync as well.
+
+This must be imported from angular.
