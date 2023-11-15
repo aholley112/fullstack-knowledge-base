@@ -6,3 +6,13 @@ Academind Resources on PWAs: https://academind.com/learn/progressive-web-apps
 PWA: A Progressive Web App (PWA) is a web application that has the feel and functionality of an actual native/mobile phone app. PWA's are also enhanced with modern API's to deliver advanced features such as the ability for a user to install the website on any device.
 
 Service Worker: A Service Worker is a script that the browser downloads and runs in the background, seperate from the main thread of the webpage, opening the door to features that don't need to work with the webpage or user interaction. These features include, but are not limited to, push notifications, background sync, and supporting offline experiences!
+
+Use the Angular CLI to add @angular/pwa to the project.
+
+Globally Install a lightweight node server by running npm i -g http-server.
+
+Build the project for production.
+
+Change directories into the "dist/PROJECTNAME/browser" folder
+
+Run "http-server".
